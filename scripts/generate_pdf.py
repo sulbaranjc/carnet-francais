@@ -186,7 +186,7 @@ def draw_hello(c, x, y):
     c.circle(x + 132, y + 128, 15, stroke=0, fill=1)
     for dx, dy in [(0,23),(18,14),(23,0),(18,-14),(-18,14),(-23,0)]:
         line(c, x + 132, y + 128, x + 132 + dx, y + 128 + dy, YELLOW, 1.4)
-    draw_human(c, x + 63, y + 27, LAVENDER, woman=True, wave=True)
+    draw_human(c, x + 63, y + 17, LAVENDER, woman=True, wave=True)
 
 
 def entry(c, y, number, word, article, ipa, sentence, hint, kind):

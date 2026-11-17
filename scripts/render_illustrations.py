@@ -31,14 +31,14 @@ def load_drawings():
     return namespace
 
 
-def render_family_scene(name, aunt):
-    drawings = load_drawings()
+def render_scene(name, draw_scene):
+    """Render one shared vector scene to a high-resolution PNG."""
     WORK_DIR.mkdir(parents=True, exist_ok=True)
     pdf_path = WORK_DIR / f"{name}.pdf"
     png_prefix = WORK_DIR / name
 
     document = canvas.Canvas(str(pdf_path), pagesize=SCENE_SIZE)
-    drawings["draw_family_scene"](document, 0, 0, aunt=aunt)
+    draw_scene(document)
     document.save()
 
     if not shutil.which("pdftoppm"):
@@ -52,10 +52,17 @@ def render_family_scene(name, aunt):
 
 
 def main():
-    render_family_scene("tante", aunt=True)
-    render_family_scene("oncle", aunt=False)
+    drawings = load_drawings()
+    render_scene(
+        "tante", lambda document: drawings["draw_family_scene"](document, 0, 0, aunt=True)
+    )
+    render_scene(
+        "oncle", lambda document: drawings["draw_family_scene"](document, 0, 0, aunt=False)
+    )
+    render_scene("the", lambda document: drawings["draw_tea"](document, 0, 0))
+    render_scene("bonjour", lambda document: drawings["draw_hello"](document, 0, 0))
     shutil.rmtree(WORK_DIR, ignore_errors=True)
-    print("Rendered tante.png and oncle.png.")
+    print("Rendered tante.png, oncle.png, the.png and bonjour.png.")
 
 
 if __name__ == "__main__":
