@@ -791,9 +791,9 @@
       "importGloss": "hermana",
       "learningState": "enrichi",
       "image": {
-        "name": "sur.svg",
-        "src": "assets/images/sur.svg",
-        "alt": "Une fille joue avec un ballon."
+        "name": "ma-sur-photo.jpg",
+        "src": "assets/images/ma-sur-photo.jpg",
+        "alt": "La sœur de Juan Carlos sourit avec des lunettes."
       },
       "audio": {
         "name": "sur.mp3",
