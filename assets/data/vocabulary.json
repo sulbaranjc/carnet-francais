@@ -895,9 +895,9 @@
       "importGloss": "hermano",
       "learningState": "enrichi",
       "image": {
-        "name": "frere.svg",
-        "src": "assets/images/frere.svg",
-        "alt": "Un garçon joue au football."
+        "name": "frere-photo.jpg",
+        "src": "assets/images/frere-photo.jpg",
+        "alt": "Le frère de Juan Carlos regarde l'appareil photo."
       },
       "audio": {
         "name": "frere.mp3",
