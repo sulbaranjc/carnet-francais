@@ -91,9 +91,9 @@
       "importGloss": "mi hijo",
       "learningState": "enrichi",
       "image": {
-        "name": "mon-fils.svg",
-        "src": "assets/images/mon-fils.svg",
-        "alt": "Un jeune garçon lit un livre illustré."
+        "name": "fils-photo.jpg",
+        "src": "assets/images/fils-photo.jpg",
+        "alt": "Le fils de Juan Carlos sourit devant des plantes."
       },
       "audio": {
         "name": "mon-fils.mp3",
@@ -817,9 +817,9 @@
       "importGloss": "hijo",
       "learningState": "enrichi",
       "image": {
-        "name": "fils.svg",
-        "src": "assets/images/fils.svg",
-        "alt": "Un garçon joue dans un jardin."
+        "name": "fils-photo.jpg",
+        "src": "assets/images/fils-photo.jpg",
+        "alt": "Le fils de Juan Carlos sourit devant des plantes."
       },
       "audio": {
         "name": "fils.mp3",
