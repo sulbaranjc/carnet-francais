@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="300" viewBox="0 0 165 150" role="img" aria-labelledby="title desc">
+  <title id="title">parfait</title><desc id="desc">Une élève sourit devant un exercice réussi.</desc>
+  <rect width="165" height="150" rx="16" fill="#E9F0F7"/>
+  <circle cx="132" cy="28" r="13" fill="#fff" opacity=".72"/>
+  <circle cx="28" cy="119" r="18" fill="#fff" opacity=".45"/>
+  <circle cx="82" cy="82" r="43" fill="#427AA1"/><path d="M61 82h42M82 61v42" stroke="white" stroke-width="10" stroke-linecap="round"/>
+  <rect x="16" y="126" width="133" height="17" rx="8.5" fill="#fff" opacity=".86"/>
+  <text x="82.5" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#28334A">parfait</text>
+</svg>

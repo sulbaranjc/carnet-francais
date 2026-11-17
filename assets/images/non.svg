@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="300" viewBox="0 0 165 150" role="img" aria-labelledby="title desc">
+  <title id="title">non</title><desc id="desc">Une personne secoue doucement la tête.</desc>
+  <rect width="165" height="150" rx="16" fill="#E9F0F7"/>
+  <circle cx="132" cy="28" r="13" fill="#fff" opacity=".72"/>
+  <circle cx="28" cy="119" r="18" fill="#fff" opacity=".45"/>
+  <path d="M31 43h79a13 13 0 0 1 13 13v32a13 13 0 0 1-13 13H77l-20 17 4-17H31a13 13 0 0 1-13-13V56a13 13 0 0 1 13-13z" fill="#427AA1"/><circle cx="54" cy="72" r="6" fill="white"/><circle cx="76" cy="72" r="6" fill="white"/><circle cx="98" cy="72" r="6" fill="white"/>
+  <rect x="16" y="126" width="133" height="17" rx="8.5" fill="#fff" opacity=".86"/>
+  <text x="82.5" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#28334A">non</text>
+</svg>

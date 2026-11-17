@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "test:js": "node --test tests/vocabulary.test.mjs",
-    "test:data": "python3 tests/test_vocabulary_data.py",
+    "test:data": "python3 tests/test_vocabulary_data.py && python3 tests/test_import_complete_cards.py",
     "test:responsive": "python3 tests/test_responsive_css.py",
     "test:desktop": "python3 tests/test_desktop_layout.py",
     "test:deployment": "python3 tests/test_deployment_manifest.py",

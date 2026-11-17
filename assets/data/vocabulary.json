@@ -1,281 +1,603 @@
 {
-  "version": 2,
+  "version": 3,
   "entries": [
     {
       "id": "pas-du-tout",
       "number": 1,
       "word": "pas du tout",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/pa dy tu/",
+      "sentence": "Je n'aime pas du tout le café.",
+      "rule": "Locution adverbiale de négation renforcée, généralement employée avec « ne » dans une phrase soignée.",
       "source": "duolingo",
       "importGloss": "para nada",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "pas-du-tout.svg",
+        "src": "assets/images/pas-du-tout.svg",
+        "alt": "Une personne repousse une tasse de café avec une expression de refus."
+      },
+      "audio": {
+        "name": "pas-du-tout.mp3",
+        "src": "assets/media/audio/pas-du-tout.mp3"
+      },
+      "sentenceAudio": {
+        "name": "pas-du-tout-phrase.mp3",
+        "src": "assets/media/audio/sentences/pas-du-tout-phrase.mp3"
+      },
+      "illustrationKind": "negation"
     },
     {
       "id": "mais",
       "number": 2,
       "word": "mais",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/mɛ/",
+      "sentence": "J'aime le thé, mais pas le café.",
+      "rule": "Conjonction de coordination qui exprime une opposition ou une restriction.",
       "source": "duolingo",
       "importGloss": "pero",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "mais.svg",
+        "src": "assets/images/mais.svg",
+        "alt": "Deux boissons posées côte à côte, avec une personne qui choisit le thé."
+      },
+      "audio": {
+        "name": "mais.mp3",
+        "src": "assets/media/audio/mais.mp3"
+      },
+      "sentenceAudio": {
+        "name": "mais-phrase.mp3",
+        "src": "assets/media/audio/sentences/mais-phrase.mp3"
+      },
+      "illustrationKind": "conversation"
     },
     {
       "id": "mon-frere",
       "number": 3,
       "word": "mon frère",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "le",
+      "ipa": "/mɔ̃ fʁɛʁ/",
+      "sentence": "Mon frère joue au football.",
+      "rule": "« Frère » est un nom masculin. « Mon » est le déterminant possessif masculin singulier.",
       "source": "duolingo",
       "importGloss": "mi hermano",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "mon-frere.svg",
+        "src": "assets/images/mon-frere.svg",
+        "alt": "Un garçon joue au football dans un parc."
+      },
+      "audio": {
+        "name": "mon-frere.mp3",
+        "src": "assets/media/audio/mon-frere.mp3"
+      },
+      "sentenceAudio": {
+        "name": "mon-frere-phrase.mp3",
+        "src": "assets/media/audio/sentences/mon-frere-phrase.mp3"
+      },
+      "illustrationKind": "famille"
     },
     {
       "id": "mon-fils",
       "number": 4,
       "word": "mon fils",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "le",
+      "ipa": "/mɔ̃ fis/",
+      "sentence": "Mon fils lit une histoire.",
+      "rule": "« Fils » est un nom masculin. Le « s » final se prononce /s/ dans « fils ».",
       "source": "duolingo",
       "importGloss": "mi hijo",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "mon-fils.svg",
+        "src": "assets/images/mon-fils.svg",
+        "alt": "Un jeune garçon lit un livre illustré."
+      },
+      "audio": {
+        "name": "mon-fils.mp3",
+        "src": "assets/media/audio/mon-fils.mp3"
+      },
+      "sentenceAudio": {
+        "name": "mon-fils-phrase.mp3",
+        "src": "assets/media/audio/sentences/mon-fils-phrase.mp3"
+      },
+      "illustrationKind": "famille"
     },
     {
       "id": "ma-tante",
       "number": 5,
       "word": "ma tante",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "la",
+      "ipa": "/ma tɑ̃t/",
+      "sentence": "Ma tante prépare le dîner.",
+      "rule": "« Tante » est un nom féminin. « Ma » est le déterminant possessif féminin singulier.",
       "source": "duolingo",
       "importGloss": "mi tía",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "ma-tante.svg",
+        "src": "assets/images/ma-tante.svg",
+        "alt": "Une femme prépare un repas dans une cuisine."
+      },
+      "audio": {
+        "name": "ma-tante.mp3",
+        "src": "assets/media/audio/ma-tante.mp3"
+      },
+      "sentenceAudio": {
+        "name": "ma-tante-phrase.mp3",
+        "src": "assets/media/audio/sentences/ma-tante-phrase.mp3"
+      },
+      "illustrationKind": "famille"
     },
     {
       "id": "toujours",
       "number": 6,
       "word": "toujours",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/tu.ʒuʁ/",
+      "sentence": "Il arrive toujours à l'heure.",
+      "rule": "Adverbe qui indique une action habituelle, continue ou répétée.",
       "source": "duolingo",
       "importGloss": "siempre",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "toujours.svg",
+        "src": "assets/images/toujours.svg",
+        "alt": "Une personne arrive devant une horloge à l'heure exacte."
+      },
+      "audio": {
+        "name": "toujours.mp3",
+        "src": "assets/media/audio/toujours.mp3"
+      },
+      "sentenceAudio": {
+        "name": "toujours-phrase.mp3",
+        "src": "assets/media/audio/sentences/toujours-phrase.mp3"
+      },
+      "illustrationKind": "temps"
     },
     {
       "id": "interessant",
       "number": 7,
       "word": "intéressant",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/ɛ̃.te.ʁɛ.sɑ̃/",
+      "sentence": "Ce livre est très intéressant.",
+      "rule": "Adjectif masculin singulier ; au féminin, on ajoute généralement « e » : « intéressante ».",
       "source": "duolingo",
       "importGloss": "interesante",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "interessant.svg",
+        "src": "assets/images/interessant.svg",
+        "alt": "Une personne lit un livre avec beaucoup d'attention."
+      },
+      "audio": {
+        "name": "interessant.mp3",
+        "src": "assets/media/audio/interessant.mp3"
+      },
+      "sentenceAudio": {
+        "name": "interessant-phrase.mp3",
+        "src": "assets/media/audio/sentences/interessant-phrase.mp3"
+      },
+      "illustrationKind": "adjectif"
     },
     {
       "id": "tres",
       "number": 8,
       "word": "très",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/tʁɛ/",
+      "sentence": "La classe est très calme.",
+      "rule": "Adverbe d'intensité placé devant un adjectif ou un autre adverbe.",
       "source": "duolingo",
       "importGloss": "muy",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "tres.svg",
+        "src": "assets/images/tres.svg",
+        "alt": "Une salle de classe silencieuse avec des élèves attentifs."
+      },
+      "audio": {
+        "name": "tres.mp3",
+        "src": "assets/media/audio/tres.mp3"
+      },
+      "sentenceAudio": {
+        "name": "tres-phrase.mp3",
+        "src": "assets/media/audio/sentences/tres-phrase.mp3"
+      },
+      "illustrationKind": "intensite"
     },
     {
       "id": "ma-niece",
       "number": 9,
       "word": "ma nièce",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "la",
+      "ipa": "/ma njɛs/",
+      "sentence": "Ma nièce dessine un chat.",
+      "rule": "« Nièce » est un nom féminin. « Ma » est le déterminant possessif féminin singulier.",
       "source": "duolingo",
       "importGloss": "mi sobrina",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "ma-niece.svg",
+        "src": "assets/images/ma-niece.svg",
+        "alt": "Une jeune fille dessine un chat sur une feuille."
+      },
+      "audio": {
+        "name": "ma-niece.mp3",
+        "src": "assets/media/audio/ma-niece.mp3"
+      },
+      "sentenceAudio": {
+        "name": "ma-niece-phrase.mp3",
+        "src": "assets/media/audio/sentences/ma-niece-phrase.mp3"
+      },
+      "illustrationKind": "famille"
     },
     {
       "id": "ma-sur",
       "number": 10,
       "word": "ma sœur",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "la",
+      "ipa": "/ma sœʁ/",
+      "sentence": "Ma sœur chante bien.",
+      "rule": "« Sœur » est un nom féminin. « Ma » est le déterminant possessif féminin singulier.",
       "source": "duolingo",
       "importGloss": "mi hermana",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "ma-sur.svg",
+        "src": "assets/images/ma-sur.svg",
+        "alt": "Une fille chante devant un microphone."
+      },
+      "audio": {
+        "name": "ma-sur.mp3",
+        "src": "assets/media/audio/ma-sur.mp3"
+      },
+      "sentenceAudio": {
+        "name": "ma-sur-phrase.mp3",
+        "src": "assets/media/audio/sentences/ma-sur-phrase.mp3"
+      },
+      "illustrationKind": "famille"
     },
     {
       "id": "elle",
       "number": 11,
       "word": "elle",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/ɛl/",
+      "sentence": "Elle parle avec son amie.",
+      "rule": "Pronom personnel sujet de la troisième personne du singulier, employé pour une personne ou une chose féminine.",
       "source": "duolingo",
       "importGloss": "ella",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "elle.svg",
+        "src": "assets/images/elle.svg",
+        "alt": "Une femme parle avec une amie."
+      },
+      "audio": {
+        "name": "elle.mp3",
+        "src": "assets/media/audio/elle.mp3"
+      },
+      "sentenceAudio": {
+        "name": "elle-phrase.mp3",
+        "src": "assets/media/audio/sentences/elle-phrase.mp3"
+      },
+      "illustrationKind": "conversation"
     },
     {
       "id": "est",
       "number": 12,
       "word": "est",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/ɛ/",
+      "sentence": "Le chat est sur la table.",
+      "rule": "Forme du verbe « être » à la troisième personne du singulier : il est, elle est, on est.",
       "source": "duolingo",
       "importGloss": "es, está",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "est.svg",
+        "src": "assets/images/est.svg",
+        "alt": "Un chat est assis sur une table."
+      },
+      "audio": {
+        "name": "est.mp3",
+        "src": "assets/media/audio/est.mp3"
+      },
+      "sentenceAudio": {
+        "name": "est-phrase.mp3",
+        "src": "assets/media/audio/sentences/est-phrase.mp3"
+      },
+      "illustrationKind": "position"
     },
     {
       "id": "bien-sur",
       "number": 13,
       "word": "bien sûr",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/bjɛ̃ syʁ/",
+      "sentence": "Bien sûr, je peux t'aider.",
+      "rule": "Expression utilisée pour confirmer une réponse ou marquer l'évidence.",
       "source": "duolingo",
       "importGloss": "por supuesto",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "bien-sur.svg",
+        "src": "assets/images/bien-sur.svg",
+        "alt": "Une personne sourit et fait un signe positif de la tête."
+      },
+      "audio": {
+        "name": "bien-sur.mp3",
+        "src": "assets/media/audio/bien-sur.mp3"
+      },
+      "sentenceAudio": {
+        "name": "bien-sur-phrase.mp3",
+        "src": "assets/media/audio/sentences/bien-sur-phrase.mp3"
+      },
+      "illustrationKind": "conversation"
     },
     {
       "id": "il",
       "number": 14,
       "word": "il",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/il/",
+      "sentence": "Il regarde le ciel.",
+      "rule": "Pronom personnel sujet de la troisième personne du singulier, souvent employé pour une personne masculine.",
       "source": "duolingo",
       "importGloss": "él",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "il.svg",
+        "src": "assets/images/il.svg",
+        "alt": "Un garçon regarde le ciel avec des nuages."
+      },
+      "audio": {
+        "name": "il.mp3",
+        "src": "assets/media/audio/il.mp3"
+      },
+      "sentenceAudio": {
+        "name": "il-phrase.mp3",
+        "src": "assets/media/audio/sentences/il-phrase.mp3"
+      },
+      "illustrationKind": "personne"
     },
     {
       "id": "mechant",
       "number": 15,
       "word": "méchant",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/me.ʃɑ̃/",
+      "sentence": "Le loup est méchant dans cette histoire.",
+      "rule": "Adjectif masculin singulier ; au féminin, on écrit « méchante ».",
       "source": "duolingo",
       "importGloss": "malvado",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "mechant.svg",
+        "src": "assets/images/mechant.svg",
+        "alt": "Un loup au regard sévère dans un conte."
+      },
+      "audio": {
+        "name": "mechant.mp3",
+        "src": "assets/media/audio/mechant.mp3"
+      },
+      "sentenceAudio": {
+        "name": "mechant-phrase.mp3",
+        "src": "assets/media/audio/sentences/mechant-phrase.mp3"
+      },
+      "illustrationKind": "adjectif"
     },
     {
       "id": "amusant",
       "number": 16,
       "word": "amusant",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/a.my.zɑ̃/",
+      "sentence": "Ce jeu est amusant.",
+      "rule": "Adjectif masculin singulier ; au féminin, on écrit « amusante ».",
       "source": "duolingo",
       "importGloss": "divertido",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "amusant.svg",
+        "src": "assets/images/amusant.svg",
+        "alt": "Des enfants rient en jouant à un jeu."
+      },
+      "audio": {
+        "name": "amusant.mp3",
+        "src": "assets/media/audio/amusant.mp3"
+      },
+      "sentenceAudio": {
+        "name": "amusant-phrase.mp3",
+        "src": "assets/media/audio/sentences/amusant-phrase.mp3"
+      },
+      "illustrationKind": "adjectif"
     },
     {
       "id": "il-vient",
       "number": 17,
       "word": "il vient",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/il vjɛ̃/",
+      "sentence": "Il vient à la maison ce soir.",
+      "rule": "« Vient » est la forme du verbe « venir » à la troisième personne du singulier.",
       "source": "duolingo",
       "importGloss": "viene",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "il-vient.svg",
+        "src": "assets/images/il-vient.svg",
+        "alt": "Un garçon marche vers une maison."
+      },
+      "audio": {
+        "name": "il-vient.mp3",
+        "src": "assets/media/audio/il-vient.mp3"
+      },
+      "sentenceAudio": {
+        "name": "il-vient-phrase.mp3",
+        "src": "assets/media/audio/sentences/il-vient-phrase.mp3"
+      },
+      "illustrationKind": "mouvement"
     },
     {
       "id": "il-habite",
       "number": 18,
       "word": "il habite",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/il a.bit/",
+      "sentence": "Il habite près de l'école.",
+      "rule": "« Habite » est la forme du verbe « habiter » à la troisième personne du singulier.",
       "source": "duolingo",
       "importGloss": "habita, él habita",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "il-habite.svg",
+        "src": "assets/images/il-habite.svg",
+        "alt": "Un garçon se tient devant sa maison près d'une école."
+      },
+      "audio": {
+        "name": "il-habite.mp3",
+        "src": "assets/media/audio/il-habite.mp3"
+      },
+      "sentenceAudio": {
+        "name": "il-habite-phrase.mp3",
+        "src": "assets/media/audio/sentences/il-habite-phrase.mp3"
+      },
+      "illustrationKind": "lieu"
     },
     {
       "id": "neveu",
       "number": 19,
       "word": "neveu",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "le",
+      "ipa": "/nə.vø/",
+      "sentence": "Mon neveu joue dans le jardin.",
+      "rule": "« Neveu » est un nom masculin ; le féminin correspondant est « nièce ».",
       "source": "duolingo",
       "importGloss": "sobrino",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "neveu.svg",
+        "src": "assets/images/neveu.svg",
+        "alt": "Un jeune garçon joue dans un jardin."
+      },
+      "audio": {
+        "name": "neveu.mp3",
+        "src": "assets/media/audio/neveu.mp3"
+      },
+      "sentenceAudio": {
+        "name": "neveu-phrase.mp3",
+        "src": "assets/media/audio/sentences/neveu-phrase.mp3"
+      },
+      "illustrationKind": "famille"
     },
     {
       "id": "niece",
       "number": 20,
       "word": "nièce",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "la",
+      "ipa": "/njɛs/",
+      "sentence": "Ma nièce aime les animaux.",
+      "rule": "« Nièce » est un nom féminin ; le masculin correspondant est « neveu ».",
       "source": "duolingo",
       "importGloss": "sobrina",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "niece.svg",
+        "src": "assets/images/niece.svg",
+        "alt": "Une jeune fille caresse un petit chien."
+      },
+      "audio": {
+        "name": "niece.mp3",
+        "src": "assets/media/audio/niece.mp3"
+      },
+      "sentenceAudio": {
+        "name": "niece-phrase.mp3",
+        "src": "assets/media/audio/sentences/niece-phrase.mp3"
+      },
+      "illustrationKind": "famille"
     },
     {
       "id": "a",
       "number": 21,
       "word": "à",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/a/",
+      "sentence": "Elle va à l'école.",
+      "rule": "« À » introduit souvent un lieu, une personne ou une heure.",
       "source": "duolingo",
       "importGloss": "en, de, por",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "a.svg",
+        "src": "assets/images/a.svg",
+        "alt": "Une fille marche vers une école."
+      },
+      "audio": {
+        "name": "a.mp3",
+        "src": "assets/media/audio/a.mp3"
+      },
+      "sentenceAudio": {
+        "name": "a-phrase.mp3",
+        "src": "assets/media/audio/sentences/a-phrase.mp3"
+      },
+      "illustrationKind": "lieu"
     },
     {
       "id": "elle-habite",
       "number": 22,
       "word": "elle habite",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/ɛl a.bit/",
+      "sentence": "Elle habite près du parc.",
+      "rule": "« Habite » est la forme du verbe « habiter » avec « elle » au présent.",
       "source": "duolingo",
       "importGloss": "ella vive",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "elle-habite.svg",
+        "src": "assets/images/elle-habite.svg",
+        "alt": "Une fille devant sa maison près d'un parc."
+      },
+      "audio": {
+        "name": "elle-habite.mp3",
+        "src": "assets/media/audio/elle-habite.mp3"
+      },
+      "sentenceAudio": {
+        "name": "elle-habite-phrase.mp3",
+        "src": "assets/media/audio/sentences/elle-habite-phrase.mp3"
+      },
+      "illustrationKind": "maison"
     },
     {
       "id": "maintenant",
       "number": 23,
       "word": "maintenant",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/mɛ̃.tə.nɑ̃/",
+      "sentence": "Maintenant, nous lisons une histoire.",
+      "rule": "« Maintenant » indique le moment présent.",
       "source": "duolingo",
       "importGloss": "ahora",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "maintenant.svg",
+        "src": "assets/images/maintenant.svg",
+        "alt": "Des enfants lisent un livre maintenant."
+      },
+      "audio": {
+        "name": "maintenant.mp3",
+        "src": "assets/media/audio/maintenant.mp3"
+      },
+      "sentenceAudio": {
+        "name": "maintenant-phrase.mp3",
+        "src": "assets/media/audio/sentences/maintenant-phrase.mp3"
+      },
+      "illustrationKind": "temps"
     },
     {
       "id": "oncle",
@@ -283,12 +605,12 @@
       "word": "oncle",
       "article": "l’",
       "ipa": "/ɔ̃kl/",
-      "sentence": "Voici mon oncle.",
-      "rule": "mon → masculin",
+      "sentence": "Mon oncle aime cuisiner.",
+      "rule": "« Oncle » est un nom masculin : un oncle, l'oncle.",
       "image": {
         "name": "oncle.png",
         "src": "assets/images/oncle.png",
-        "alt": "Un oncle et un enfant"
+        "alt": "Un homme cuisine dans une cuisine."
       },
       "audio": {
         "name": "oncle.mp3",
@@ -297,7 +619,10 @@
       "sentenceAudio": {
         "name": "oncle-phrase.mp3",
         "src": "assets/media/audio/sentences/oncle-phrase.mp3"
-      }
+      },
+      "source": "duolingo",
+      "learningState": "enrichi",
+      "illustrationKind": "famille"
     },
     {
       "id": "tante",
@@ -305,12 +630,12 @@
       "word": "tante",
       "article": "la",
       "ipa": "/tɑ̃t/",
-      "sentence": "Voici ma tante.",
-      "rule": "la → féminin",
+      "sentence": "Ma tante arrive ce soir.",
+      "rule": "« Tante » est un nom féminin : une tante, la tante.",
       "image": {
         "name": "tante.png",
         "src": "assets/images/tante.png",
-        "alt": "Une tante et un enfant"
+        "alt": "Une femme arrive avec une valise."
       },
       "audio": {
         "name": "tante.mp3",
@@ -319,415 +644,894 @@
       "sentenceAudio": {
         "name": "tante-phrase.mp3",
         "src": "assets/media/audio/sentences/tante-phrase.mp3"
-      }
+      },
+      "source": "duolingo",
+      "learningState": "enrichi",
+      "illustrationKind": "famille"
     },
     {
       "id": "de",
       "number": 26,
       "word": "de",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/də/",
+      "sentence": "Le vélo de Paul est bleu.",
+      "rule": "« De » peut exprimer la possession, l'origine ou la matière ; il devient « d' » devant une voyelle.",
       "source": "duolingo",
       "importGloss": "de",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "de.svg",
+        "src": "assets/images/de.svg",
+        "alt": "Un vélo bleu appartient à Paul."
+      },
+      "audio": {
+        "name": "de.mp3",
+        "src": "assets/media/audio/de.mp3"
+      },
+      "sentenceAudio": {
+        "name": "de-phrase.mp3",
+        "src": "assets/media/audio/sentences/de-phrase.mp3"
+      },
+      "illustrationKind": "objet"
     },
     {
       "id": "une",
       "number": 27,
       "word": "une",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/yn/",
+      "sentence": "Une fleur pousse dans le jardin.",
+      "rule": "« Une » est un article indéfini féminin singulier.",
       "source": "duolingo",
       "importGloss": "alguna, una, une",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "une.svg",
+        "src": "assets/images/une.svg",
+        "alt": "Une fleur colorée dans un jardin."
+      },
+      "audio": {
+        "name": "une.mp3",
+        "src": "assets/media/audio/une.mp3"
+      },
+      "sentenceAudio": {
+        "name": "une-phrase.mp3",
+        "src": "assets/media/audio/sentences/une-phrase.mp3"
+      },
+      "illustrationKind": "nature"
     },
     {
       "id": "elle-vient",
       "number": 28,
       "word": "elle vient",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/ɛl vjɛ̃/",
+      "sentence": "Elle vient de Lyon.",
+      "rule": "« Vient » est la forme du verbe « venir » avec « elle » au présent.",
       "source": "duolingo",
       "importGloss": "viene",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "elle-vient.svg",
+        "src": "assets/images/elle-vient.svg",
+        "alt": "Une fille arrive de Lyon avec un sac."
+      },
+      "audio": {
+        "name": "elle-vient.mp3",
+        "src": "assets/media/audio/elle-vient.mp3"
+      },
+      "sentenceAudio": {
+        "name": "elle-vient-phrase.mp3",
+        "src": "assets/media/audio/sentences/elle-vient-phrase.mp3"
+      },
+      "illustrationKind": "voyage"
     },
     {
       "id": "j-ai",
       "number": 29,
       "word": "j'ai",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/ʒe/",
+      "sentence": "J'ai un petit chat.",
+      "rule": "« J'ai » est la forme du verbe « avoir » avec « je » au présent.",
       "source": "duolingo",
       "importGloss": "tengo, yo tengo, han",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "j-ai.svg",
+        "src": "assets/images/j-ai.svg",
+        "alt": "Un enfant tient un petit chat."
+      },
+      "audio": {
+        "name": "j-ai.mp3",
+        "src": "assets/media/audio/j-ai.mp3"
+      },
+      "sentenceAudio": {
+        "name": "j-ai-phrase.mp3",
+        "src": "assets/media/audio/sentences/j-ai-phrase.mp3"
+      },
+      "illustrationKind": "animal"
     },
     {
       "id": "fille",
       "number": 30,
       "word": "fille",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "la",
+      "ipa": "/fij/",
+      "sentence": "La fille dessine un soleil.",
+      "rule": "« Fille » est un nom féminin : une fille, la fille.",
       "source": "duolingo",
       "importGloss": "hija",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "fille.svg",
+        "src": "assets/images/fille.svg",
+        "alt": "Une fille dessine un soleil."
+      },
+      "audio": {
+        "name": "fille.mp3",
+        "src": "assets/media/audio/fille.mp3"
+      },
+      "sentenceAudio": {
+        "name": "fille-phrase.mp3",
+        "src": "assets/media/audio/sentences/fille-phrase.mp3"
+      },
+      "illustrationKind": "personne"
     },
     {
       "id": "sur",
       "number": 31,
       "word": "sœur",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "la",
+      "ipa": "/sœʁ/",
+      "sentence": "Ma sœur joue au ballon.",
+      "rule": "« Sœur » est un nom féminin : une sœur, la sœur.",
       "source": "duolingo",
       "importGloss": "hermana",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "sur.svg",
+        "src": "assets/images/sur.svg",
+        "alt": "Une fille joue avec un ballon."
+      },
+      "audio": {
+        "name": "sur.mp3",
+        "src": "assets/media/audio/sur.mp3"
+      },
+      "sentenceAudio": {
+        "name": "sur-phrase.mp3",
+        "src": "assets/media/audio/sentences/sur-phrase.mp3"
+      },
+      "illustrationKind": "famille"
     },
     {
       "id": "fils",
       "number": 32,
       "word": "fils",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "le",
+      "ipa": "/fis/",
+      "sentence": "Son fils joue dans le jardin.",
+      "rule": "« Fils » est un nom masculin ; au singulier, le « s » se prononce.",
       "source": "duolingo",
       "importGloss": "hijo",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "fils.svg",
+        "src": "assets/images/fils.svg",
+        "alt": "Un garçon joue dans un jardin."
+      },
+      "audio": {
+        "name": "fils.mp3",
+        "src": "assets/media/audio/fils.mp3"
+      },
+      "sentenceAudio": {
+        "name": "fils-phrase.mp3",
+        "src": "assets/media/audio/sentences/fils-phrase.mp3"
+      },
+      "illustrationKind": "famille"
     },
     {
       "id": "tu-as",
       "number": 33,
       "word": "tu as",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/ty a/",
+      "sentence": "Tu as une belle idée.",
+      "rule": "« As » est la forme du verbe « avoir » avec « tu » au présent.",
       "source": "duolingo",
       "importGloss": "tú tienes",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "tu-as.svg",
+        "src": "assets/images/tu-as.svg",
+        "alt": "Un enfant sourit avec une ampoule au-dessus de sa tête."
+      },
+      "audio": {
+        "name": "tu-as.mp3",
+        "src": "assets/media/audio/tu-as.mp3"
+      },
+      "sentenceAudio": {
+        "name": "tu-as-phrase.mp3",
+        "src": "assets/media/audio/sentences/tu-as-phrase.mp3"
+      },
+      "illustrationKind": "idee"
     },
     {
       "id": "oh",
       "number": 34,
       "word": "oh",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/o/",
+      "sentence": "Oh, le chat dort ici !",
+      "rule": "« Oh » est une interjection qui exprime une émotion ou une surprise.",
       "source": "duolingo",
       "importGloss": "ay, oh, uy",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "oh.svg",
+        "src": "assets/images/oh.svg",
+        "alt": "Un enfant surpris regarde un chat endormi."
+      },
+      "audio": {
+        "name": "oh.mp3",
+        "src": "assets/media/audio/oh.mp3"
+      },
+      "sentenceAudio": {
+        "name": "oh-phrase.mp3",
+        "src": "assets/media/audio/sentences/oh-phrase.mp3"
+      },
+      "illustrationKind": "emotion"
     },
     {
       "id": "frere",
       "number": 35,
       "word": "frère",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "le",
+      "ipa": "/fʁɛʁ/",
+      "sentence": "Mon frère aime le football.",
+      "rule": "« Frère » est un nom masculin : un frère, le frère.",
       "source": "duolingo",
       "importGloss": "hermano",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "frere.svg",
+        "src": "assets/images/frere.svg",
+        "alt": "Un garçon joue au football."
+      },
+      "audio": {
+        "name": "frere.mp3",
+        "src": "assets/media/audio/frere.mp3"
+      },
+      "sentenceAudio": {
+        "name": "frere-phrase.mp3",
+        "src": "assets/media/audio/sentences/frere-phrase.mp3"
+      },
+      "illustrationKind": "famille"
     },
     {
       "id": "tu-viens-de",
       "number": 36,
       "word": "tu viens de",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/ty vjɛ̃ də/",
+      "sentence": "Tu viens de Paris, n'est-ce pas ?",
+      "rule": "« Viens » est la forme du verbe « venir » avec « tu » au présent ; « venir de » peut indiquer l'origine.",
       "source": "duolingo",
       "importGloss": "vienes de, tú eres de",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "tu-viens-de.svg",
+        "src": "assets/images/tu-viens-de.svg",
+        "alt": "Un garçon arrive de Paris avec une valise."
+      },
+      "audio": {
+        "name": "tu-viens-de.mp3",
+        "src": "assets/media/audio/tu-viens-de.mp3"
+      },
+      "sentenceAudio": {
+        "name": "tu-viens-de-phrase.mp3",
+        "src": "assets/media/audio/sentences/tu-viens-de-phrase.mp3"
+      },
+      "illustrationKind": "voyage"
     },
     {
       "id": "tu-viens-d-ou",
       "number": 37,
       "word": "tu viens d'où",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/ty vjɛ̃ du/",
+      "sentence": "Tu viens d'où après l'école ?",
+      "rule": "« Tu viens d'où ? » est une question familière pour demander l'origine ou le lieu de départ.",
       "source": "duolingo",
       "importGloss": "¿De dónde vienes?, ¿De dónde eres?",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "tu-viens-d-ou.svg",
+        "src": "assets/images/tu-viens-d-ou.svg",
+        "alt": "Deux enfants parlent près d'une école."
+      },
+      "audio": {
+        "name": "tu-viens-d-ou.mp3",
+        "src": "assets/media/audio/tu-viens-d-ou.mp3"
+      },
+      "sentenceAudio": {
+        "name": "tu-viens-d-ou-phrase.mp3",
+        "src": "assets/media/audio/sentences/tu-viens-d-ou-phrase.mp3"
+      },
+      "illustrationKind": "dialogue"
     },
     {
       "id": "a-bientot",
       "number": 38,
       "word": "à bientôt",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/a bjɛ̃.to/",
+      "sentence": "À bientôt, Léa !",
+      "rule": "« À bientôt » est une formule pour prendre congé et dire que l'on se reverra prochainement.",
       "source": "duolingo",
       "importGloss": "hasta pronto",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "a-bientot.svg",
+        "src": "assets/images/a-bientot.svg",
+        "alt": "Deux amis se disent au revoir en souriant."
+      },
+      "audio": {
+        "name": "a-bientot.mp3",
+        "src": "assets/media/audio/a-bientot.mp3"
+      },
+      "sentenceAudio": {
+        "name": "a-bientot-phrase.mp3",
+        "src": "assets/media/audio/sentences/a-bientot-phrase.mp3"
+      },
+      "illustrationKind": "salutation"
     },
     {
       "id": "viens-de",
       "number": 39,
       "word": "viens de",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/vjɛ̃ də/",
+      "sentence": "Je viens de Marseille.",
+      "rule": "« Viens » est une forme du verbe « venir » au présent ; avec « de » et un lieu, il indique l'origine.",
       "source": "duolingo",
       "importGloss": "vengo de, soy de",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "viens-de.svg",
+        "src": "assets/images/viens-de.svg",
+        "alt": "Une personne arrive de Marseille."
+      },
+      "audio": {
+        "name": "viens-de.mp3",
+        "src": "assets/media/audio/viens-de.mp3"
+      },
+      "sentenceAudio": {
+        "name": "viens-de-phrase.mp3",
+        "src": "assets/media/audio/sentences/viens-de-phrase.mp3"
+      },
+      "illustrationKind": "voyage"
     },
     {
       "id": "moi-aussi",
       "number": 40,
       "word": "moi aussi",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/mwa o.si/",
+      "sentence": "Moi aussi, j'aime les histoires.",
+      "rule": "« Moi aussi » sert à dire que l'on partage la même idée ou la même situation.",
       "source": "duolingo",
       "importGloss": "yo también",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "moi-aussi.svg",
+        "src": "assets/images/moi-aussi.svg",
+        "alt": "Deux enfants lisent et aiment le même livre."
+      },
+      "audio": {
+        "name": "moi-aussi.mp3",
+        "src": "assets/media/audio/moi-aussi.mp3"
+      },
+      "sentenceAudio": {
+        "name": "moi-aussi-phrase.mp3",
+        "src": "assets/media/audio/sentences/moi-aussi-phrase.mp3"
+      },
+      "illustrationKind": "dialogue"
     },
     {
       "id": "je",
       "number": 41,
       "word": "je",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/ʒə/",
+      "sentence": "Je suis content aujourd'hui.",
+      "rule": "« Je » est un pronom personnel sujet de la première personne du singulier.",
       "source": "duolingo",
       "importGloss": "yo",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "je.svg",
+        "src": "assets/images/je.svg",
+        "alt": "Un enfant se montre du doigt en souriant."
+      },
+      "audio": {
+        "name": "je.mp3",
+        "src": "assets/media/audio/je.mp3"
+      },
+      "sentenceAudio": {
+        "name": "je-phrase.mp3",
+        "src": "assets/media/audio/sentences/je-phrase.mp3"
+      },
+      "illustrationKind": "personne"
     },
     {
       "id": "et-toi",
       "number": 42,
       "word": "et toi",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/e twa/",
+      "sentence": "Moi, ça va bien, et toi ?",
+      "rule": "« Et toi ? » sert à poser la même question à une autre personne de façon informelle.",
       "source": "duolingo",
       "importGloss": "y tú",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "et-toi.svg",
+        "src": "assets/images/et-toi.svg",
+        "alt": "Deux amis discutent face à face."
+      },
+      "audio": {
+        "name": "et-toi.mp3",
+        "src": "assets/media/audio/et-toi.mp3"
+      },
+      "sentenceAudio": {
+        "name": "et-toi-phrase.mp3",
+        "src": "assets/media/audio/sentences/et-toi-phrase.mp3"
+      },
+      "illustrationKind": "conversation"
     },
     {
       "id": "je-m-appelle",
       "number": 43,
       "word": "je m'appelle",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/ʒə ma.pɛl/",
+      "sentence": "Bonjour, je m'appelle Léa.",
+      "rule": "« Je m'appelle » est la première personne du singulier du verbe pronominal « s'appeler ».",
       "source": "duolingo",
       "importGloss": "me llamo, soy llamado, mi nombre es",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "je-m-appelle.svg",
+        "src": "assets/images/je-m-appelle.svg",
+        "alt": "Une élève se présente devant la classe."
+      },
+      "audio": {
+        "name": "je-m-appelle.mp3",
+        "src": "assets/media/audio/je-m-appelle.mp3"
+      },
+      "sentenceAudio": {
+        "name": "je-m-appelle-phrase.mp3",
+        "src": "assets/media/audio/sentences/je-m-appelle-phrase.mp3"
+      },
+      "illustrationKind": "presentation"
     },
     {
       "id": "bien",
       "number": 44,
       "word": "bien",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/bjɛ̃/",
+      "sentence": "Je vais bien, merci.",
+      "rule": "« Bien » est un adverbe ; il peut indiquer qu'une action ou un état est positif.",
       "source": "duolingo",
       "importGloss": "bien, mucho",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "bien.svg",
+        "src": "assets/images/bien.svg",
+        "alt": "Une personne sourit avec le pouce levé."
+      },
+      "audio": {
+        "name": "bien.mp3",
+        "src": "assets/media/audio/bien.mp3"
+      },
+      "sentenceAudio": {
+        "name": "bien-phrase.mp3",
+        "src": "assets/media/audio/sentences/bien-phrase.mp3"
+      },
+      "illustrationKind": "emotion"
     },
     {
       "id": "ca-va",
       "number": 45,
       "word": "ça va",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/sa va/",
+      "sentence": "Bonjour, ça va ?",
+      "rule": "« Ça va » est une expression courante pour demander ou dire comment on se sent.",
       "source": "duolingo",
       "importGloss": "cómo estás",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "ca-va.svg",
+        "src": "assets/images/ca-va.svg",
+        "alt": "Deux personnes se saluent dans la rue."
+      },
+      "audio": {
+        "name": "ca-va.mp3",
+        "src": "assets/media/audio/ca-va.mp3"
+      },
+      "sentenceAudio": {
+        "name": "ca-va-phrase.mp3",
+        "src": "assets/media/audio/sentences/ca-va-phrase.mp3"
+      },
+      "illustrationKind": "conversation"
     },
     {
       "id": "enchante",
       "number": 46,
       "word": "enchanté",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/ɑ̃.ʃɑ̃.te/",
+      "sentence": "Enchanté, je m'appelle Hugo.",
+      "rule": "« Enchanté » exprime le plaisir de rencontrer quelqu'un ; au féminin, on écrit « enchantée ».",
       "source": "duolingo",
       "importGloss": "encantado, mucho gusto",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "enchante.svg",
+        "src": "assets/images/enchante.svg",
+        "alt": "Deux personnes se serrent la main avec le sourire."
+      },
+      "audio": {
+        "name": "enchante.mp3",
+        "src": "assets/media/audio/enchante.mp3"
+      },
+      "sentenceAudio": {
+        "name": "enchante-phrase.mp3",
+        "src": "assets/media/audio/sentences/enchante-phrase.mp3"
+      },
+      "illustrationKind": "rencontre"
     },
     {
       "id": "au-revoir",
       "number": 47,
       "word": "au revoir",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/o ʁə.vwaʁ/",
+      "sentence": "Au revoir et à bientôt !",
+      "rule": "« Au revoir » est une formule de politesse utilisée pour prendre congé.",
       "source": "duolingo",
       "importGloss": "adiós",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "au-revoir.svg",
+        "src": "assets/images/au-revoir.svg",
+        "alt": "Une personne fait un signe de la main en partant."
+      },
+      "audio": {
+        "name": "au-revoir.mp3",
+        "src": "assets/media/audio/au-revoir.mp3"
+      },
+      "sentenceAudio": {
+        "name": "au-revoir-phrase.mp3",
+        "src": "assets/media/audio/sentences/au-revoir-phrase.mp3"
+      },
+      "illustrationKind": "salutation"
     },
     {
       "id": "parfait",
       "number": 48,
       "word": "parfait",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/paʁ.fɛ/",
+      "sentence": "Parfait, nous sommes prêts !",
+      "rule": "« Parfait » est un adjectif masculin ; au féminin, on dit « parfaite ». Il peut aussi servir d’exclamation.",
       "source": "duolingo",
       "importGloss": "perfecto",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "parfait.svg",
+        "src": "assets/images/parfait.svg",
+        "alt": "Une élève sourit devant un exercice réussi."
+      },
+      "audio": {
+        "name": "parfait.mp3",
+        "src": "assets/media/audio/parfait.mp3"
+      },
+      "sentenceAudio": {
+        "name": "parfait-phrase.mp3",
+        "src": "assets/media/audio/sentences/parfait-phrase.mp3"
+      },
+      "illustrationKind": "reussite"
     },
     {
       "id": "ou",
       "number": 49,
       "word": "ou",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/u/",
+      "sentence": "Tu veux du thé ou du café ?",
+      "rule": "« Ou » présente un choix. Il ne faut pas le confondre avec « où », qui indique un lieu.",
       "source": "duolingo",
       "importGloss": "o",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "ou.svg",
+        "src": "assets/images/ou.svg",
+        "alt": "Une tasse de thé et une tasse de café côte à côte."
+      },
+      "audio": {
+        "name": "ou.mp3",
+        "src": "assets/media/audio/ou.mp3"
+      },
+      "sentenceAudio": {
+        "name": "ou-phrase.mp3",
+        "src": "assets/media/audio/sentences/ou-phrase.mp3"
+      },
+      "illustrationKind": "choix"
     },
     {
       "id": "monsieur",
       "number": 50,
       "word": "monsieur",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "le",
+      "ipa": "/mə.sjø/",
+      "sentence": "Bonjour, monsieur Martin.",
+      "rule": "« Monsieur » est un nom masculin de politesse ; son pluriel est « messieurs ».",
       "source": "duolingo",
       "importGloss": "señor",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "monsieur.svg",
+        "src": "assets/images/monsieur.svg",
+        "alt": "Un homme porte une veste et sourit."
+      },
+      "audio": {
+        "name": "monsieur.mp3",
+        "src": "assets/media/audio/monsieur.mp3"
+      },
+      "sentenceAudio": {
+        "name": "monsieur-phrase.mp3",
+        "src": "assets/media/audio/sentences/monsieur-phrase.mp3"
+      },
+      "illustrationKind": "personne"
     },
     {
       "id": "non",
       "number": 51,
       "word": "non",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/nɔ̃/",
+      "sentence": "Non, merci, je ne veux pas de sucre.",
+      "rule": "« Non » sert à exprimer une réponse négative ou un refus.",
       "source": "duolingo",
       "importGloss": "no",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "non.svg",
+        "src": "assets/images/non.svg",
+        "alt": "Une personne secoue doucement la tête."
+      },
+      "audio": {
+        "name": "non.mp3",
+        "src": "assets/media/audio/non.mp3"
+      },
+      "sentenceAudio": {
+        "name": "non-phrase.mp3",
+        "src": "assets/media/audio/sentences/non-phrase.mp3"
+      },
+      "illustrationKind": "reponse"
     },
     {
       "id": "sandwich",
       "number": 52,
       "word": "sandwich",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "le",
+      "ipa": "/sɑ̃d.witʃ/",
+      "sentence": "Je voudrais un sandwich, s'il vous plaît.",
+      "rule": "« Sandwich » est un nom masculin ; on dit « un sandwich » ou « le sandwich ».",
       "source": "duolingo",
       "importGloss": "bocadillo, emparedado, sándwich",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "sandwich.svg",
+        "src": "assets/images/sandwich.svg",
+        "alt": "Un sandwich avec du pain, du fromage et de la salade."
+      },
+      "audio": {
+        "name": "sandwich.mp3",
+        "src": "assets/media/audio/sandwich.mp3"
+      },
+      "sentenceAudio": {
+        "name": "sandwich-phrase.mp3",
+        "src": "assets/media/audio/sentences/sandwich-phrase.mp3"
+      },
+      "illustrationKind": "nourriture"
     },
     {
       "id": "merci",
       "number": 53,
       "word": "merci",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/mɛʁ.si/",
+      "sentence": "Merci pour votre aide.",
+      "rule": "« Merci » est une formule de politesse pour exprimer sa gratitude.",
       "source": "duolingo",
       "importGloss": "gracias",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "merci.svg",
+        "src": "assets/images/merci.svg",
+        "alt": "Une personne remercie une autre avec un sourire."
+      },
+      "audio": {
+        "name": "merci.mp3",
+        "src": "assets/media/audio/merci.mp3"
+      },
+      "sentenceAudio": {
+        "name": "merci-phrase.mp3",
+        "src": "assets/media/audio/sentences/merci-phrase.mp3"
+      },
+      "illustrationKind": "politesse"
     },
     {
       "id": "et",
       "number": 54,
       "word": "et",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/e/",
+      "sentence": "Paul et Nina arrivent ensemble.",
+      "rule": "« Et » est une conjonction qui relie des mots ou des groupes de mots.",
       "source": "duolingo",
       "importGloss": "y",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "et.svg",
+        "src": "assets/images/et.svg",
+        "alt": "Deux enfants marchent ensemble."
+      },
+      "audio": {
+        "name": "et.mp3",
+        "src": "assets/media/audio/et.mp3"
+      },
+      "sentenceAudio": {
+        "name": "et-phrase.mp3",
+        "src": "assets/media/audio/sentences/et-phrase.mp3"
+      },
+      "illustrationKind": "association"
     },
     {
       "id": "oui",
       "number": 55,
       "word": "oui",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/wi/",
+      "sentence": "Oui, je comprends.",
+      "rule": "« Oui » sert à donner une réponse affirmative.",
       "source": "duolingo",
       "importGloss": "sí",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "oui.svg",
+        "src": "assets/images/oui.svg",
+        "alt": "Une personne acquiesce avec le sourire."
+      },
+      "audio": {
+        "name": "oui.mp3",
+        "src": "assets/media/audio/oui.mp3"
+      },
+      "sentenceAudio": {
+        "name": "oui-phrase.mp3",
+        "src": "assets/media/audio/sentences/oui-phrase.mp3"
+      },
+      "illustrationKind": "reponse"
     },
     {
       "id": "je-voudrais",
       "number": 56,
       "word": "je voudrais",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/ʒə vu.dʁɛ/",
+      "sentence": "Je voudrais un croissant, s'il vous plaît.",
+      "rule": "« Je voudrais » est le conditionnel présent de « vouloir » à la première personne ; il permet de demander poliment.",
       "source": "duolingo",
       "importGloss": "querría, quisiera",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "je-voudrais.svg",
+        "src": "assets/images/je-voudrais.svg",
+        "alt": "Une cliente commande au comptoir d'une boulangerie."
+      },
+      "audio": {
+        "name": "je-voudrais.mp3",
+        "src": "assets/media/audio/je-voudrais.mp3"
+      },
+      "sentenceAudio": {
+        "name": "je-voudrais-phrase.mp3",
+        "src": "assets/media/audio/sentences/je-voudrais-phrase.mp3"
+      },
+      "illustrationKind": "commande"
     },
     {
       "id": "eclair",
       "number": 57,
       "word": "éclair",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "l’",
+      "ipa": "/e.klɛʁ/",
+      "sentence": "L'éclair au chocolat est délicieux.",
+      "rule": "« Éclair » est un nom masculin ; devant une voyelle, « le » devient « l' ».",
       "source": "duolingo",
       "importGloss": "relámpago, éclair",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "eclair.svg",
+        "src": "assets/images/eclair.svg",
+        "alt": "Un éclair au chocolat posé sur une assiette."
+      },
+      "audio": {
+        "name": "eclair.mp3",
+        "src": "assets/media/audio/eclair.mp3"
+      },
+      "sentenceAudio": {
+        "name": "eclair-phrase.mp3",
+        "src": "assets/media/audio/sentences/eclair-phrase.mp3"
+      },
+      "illustrationKind": "patisserie"
     },
     {
       "id": "croissant",
       "number": 58,
       "word": "croissant",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "le",
+      "ipa": "/kʁwa.sɑ̃/",
+      "sentence": "Le croissant est encore chaud.",
+      "rule": "« Croissant » est un nom masculin ; on dit « un croissant » ou « le croissant ».",
       "source": "duolingo",
       "importGloss": "croissant",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "croissant.svg",
+        "src": "assets/images/croissant.svg",
+        "alt": "Un croissant doré sur une assiette."
+      },
+      "audio": {
+        "name": "croissant.mp3",
+        "src": "assets/media/audio/croissant.mp3"
+      },
+      "sentenceAudio": {
+        "name": "croissant-phrase.mp3",
+        "src": "assets/media/audio/sentences/croissant-phrase.mp3"
+      },
+      "illustrationKind": "patisserie"
     },
     {
       "id": "s-il-vous-plait",
       "number": 59,
       "word": "s'il vous plaît",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/sil vu plɛ/",
+      "sentence": "Un café, s'il vous plaît.",
+      "rule": "« S'il vous plaît » est une formule de politesse employée pour faire une demande.",
       "source": "duolingo",
       "importGloss": "por favor",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "s-il-vous-plait.svg",
+        "src": "assets/images/s-il-vous-plait.svg",
+        "alt": "Une personne commande poliment un café."
+      },
+      "audio": {
+        "name": "s-il-vous-plait.mp3",
+        "src": "assets/media/audio/s-il-vous-plait.mp3"
+      },
+      "sentenceAudio": {
+        "name": "s-il-vous-plait-phrase.mp3",
+        "src": "assets/media/audio/sentences/s-il-vous-plait-phrase.mp3"
+      },
+      "illustrationKind": "politesse"
     },
     {
       "id": "bonjour",
@@ -735,12 +1539,12 @@
       "word": "bonjour",
       "article": "",
       "ipa": "/bɔ̃.ʒuʁ/",
-      "sentence": "Bonjour, tante !",
-      "rule": "Je salue une personne.",
+      "sentence": "Bonjour, comment allez-vous ?",
+      "rule": "« Bonjour » est une formule de salutation utilisée pendant la journée.",
       "image": {
         "name": "bonjour.png",
         "src": "assets/images/bonjour.png",
-        "alt": "Une personne qui salue"
+        "alt": "Deux voisins se disent bonjour le matin."
       },
       "audio": {
         "name": "bonjour.mp3",
@@ -749,43 +1553,88 @@
       "sentenceAudio": {
         "name": "bonjour-phrase.mp3",
         "src": "assets/media/audio/sentences/bonjour-phrase.mp3"
-      }
+      },
+      "source": "duolingo",
+      "learningState": "enrichi",
+      "illustrationKind": "salutation"
     },
     {
       "id": "un",
       "number": 61,
       "word": "un",
       "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "ipa": "/œ̃/",
+      "sentence": "Un chat dort sur le canapé.",
+      "rule": "« Un » est un article indéfini masculin singulier.",
       "source": "duolingo",
       "importGloss": "un, alguna",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "un.svg",
+        "src": "assets/images/un.svg",
+        "alt": "Un chat dort sur un canapé."
+      },
+      "audio": {
+        "name": "un.mp3",
+        "src": "assets/media/audio/un.mp3"
+      },
+      "sentenceAudio": {
+        "name": "un-phrase.mp3",
+        "src": "assets/media/audio/sentences/un-phrase.mp3"
+      },
+      "illustrationKind": "animal"
     },
     {
       "id": "madame",
       "number": 62,
       "word": "madame",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "la",
+      "ipa": "/ma.dam/",
+      "sentence": "Bonjour, madame Dupont.",
+      "rule": "« Madame » est un nom féminin de politesse pour s'adresser à une femme.",
       "source": "duolingo",
       "importGloss": "señora",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "madame.svg",
+        "src": "assets/images/madame.svg",
+        "alt": "Une femme sourit dans la rue."
+      },
+      "audio": {
+        "name": "madame.mp3",
+        "src": "assets/media/audio/madame.mp3"
+      },
+      "sentenceAudio": {
+        "name": "madame-phrase.mp3",
+        "src": "assets/media/audio/sentences/madame-phrase.mp3"
+      },
+      "illustrationKind": "personne"
     },
     {
       "id": "cafe",
       "number": 63,
       "word": "café",
-      "article": "",
-      "ipa": "",
-      "sentence": "",
-      "rule": "Importé de Duolingo — à enrichir.",
+      "article": "le",
+      "ipa": "/ka.fe/",
+      "sentence": "Le café est chaud.",
+      "rule": "« Café » est un nom masculin ; on dit « un café » ou « le café ».",
       "source": "duolingo",
       "importGloss": "café",
-      "learningState": "à enrichir"
+      "learningState": "enrichi",
+      "image": {
+        "name": "cafe.svg",
+        "src": "assets/images/cafe.svg",
+        "alt": "Une tasse de café fumante sur une table."
+      },
+      "audio": {
+        "name": "cafe.mp3",
+        "src": "assets/media/audio/cafe.mp3"
+      },
+      "sentenceAudio": {
+        "name": "cafe-phrase.mp3",
+        "src": "assets/media/audio/sentences/cafe-phrase.mp3"
+      },
+      "illustrationKind": "nourriture"
     },
     {
       "id": "the",
@@ -794,11 +1643,11 @@
       "article": "le",
       "ipa": "/te/",
       "sentence": "Le thé est chaud.",
-      "rule": "le → masculin",
+      "rule": "« Thé » est un nom masculin ; on dit « un thé » ou « le thé ».",
       "image": {
         "name": "the.png",
         "src": "assets/images/the.png",
-        "alt": "Une tasse de thé"
+        "alt": "Une tasse de thé fumante sur une table."
       },
       "audio": {
         "name": "the.mp3",
@@ -807,7 +1656,10 @@
       "sentenceAudio": {
         "name": "the-phrase.mp3",
         "src": "assets/media/audio/sentences/the-phrase.mp3"
-      }
+      },
+      "source": "duolingo",
+      "learningState": "enrichi",
+      "illustrationKind": "nourriture"
     }
   ]
 }

@@ -15,16 +15,24 @@ Después abre `http://localhost:8000`.
 
 ## Datos y búsqueda
 
-El catálogo vive físicamente en `assets/data/vocabulary.json`. Las entradas enriquecidas
-incluyen identificador, orden, palabra, artículo, IPA, frase, regla, ilustración y
-audios. Las entradas recién importadas desde Duolingo conservan la palabra, expresión
-y significado de referencia interno (`importGloss`), sin mostrar español en la interfaz;
-se señalan como «à enrichir» hasta disponer de frase, ilustración y audio propios.
+El catálogo vive físicamente en `assets/data/vocabulary.json`. **Cada entrada debe ser
+una card completa**: identificador, orden, palabra, artículo o categoría gramatical,
+IPA, frase francesa, regla, ilustración, audio de palabra y audio de frase. El español
+de `importGloss` es solo una referencia interna de validación y nunca se muestra.
 `assets/js/app.js` obtiene ese JSON con `fetch`, construye los cards en el DOM y filtra
 en cada pulsación las palabras que comienzan por la consulta.
 
-Para importar de nuevo la lista visible de Duolingo sin usar APIs internas ni cookies,
-guarda el árbol CUA de `Practice Hub > Words` y ejecuta:
+El importador de Duolingo aplica una puerta de calidad: si una palabra no dispone de
+IPA, frase, regla, ilustración y ambos audios, **cancela la importación sin modificar
+el catálogo**. Después de añadir o revisar contenido, completa los recursos con:
+
+```bash
+python3 scripts/enrich_duolingo_catalog.py
+python3 scripts/generate_vocabulary_illustrations.py
+.venv/bin/python scripts/generate_audio.py
+```
+
+Para leer de nuevo la lista visible de Duolingo sin usar APIs internas ni cookies:
 
 ```bash
 python3 scripts/import_duolingo_words.py duolingo-words-tree.txt assets/data/vocabulary.json

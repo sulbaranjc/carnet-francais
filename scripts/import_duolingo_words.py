@@ -14,6 +14,9 @@ import unicodedata
 from pathlib import Path
 
 PAIR_PATTERN = re.compile(r'heading "([^"]+)".*?paragraph "([^"]+)"', re.DOTALL)
+REQUIRED_CARD_FIELDS = {
+    "id", "number", "word", "article", "ipa", "sentence", "rule", "image", "audio", "sentenceAudio"
+}
 
 
 def normalized_word(value: str) -> str:
@@ -72,6 +75,23 @@ def build_catalog(words: list[tuple[str, str]], previous_entries: list[dict]) ->
     return catalog
 
 
+def assert_complete_cards(catalog: list[dict]) -> None:
+    incomplete = [
+        entry["word"]
+        for entry in catalog
+        if not REQUIRED_CARD_FIELDS <= entry.keys()
+        or not entry["ipa"]
+        or not entry["sentence"]
+        or not entry["rule"]
+    ]
+    if incomplete:
+        words = ", ".join(incomplete)
+        raise ValueError(
+            "Importation annulée : chaque mot doit être enrichi avec IPA, phrase, règle, illustration et deux audios avant publication. "
+            f"Entrées à compléter : {words}"
+        )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("tree", type=Path, help="Archivo de árbol CUA de Duolingo")
@@ -81,7 +101,9 @@ def main() -> None:
     words = extract_words(args.tree.read_text(encoding="utf-8"))
     payload = json.loads(args.catalog.read_text(encoding="utf-8"))
     payload["version"] = max(2, payload.get("version", 1))
-    payload["entries"] = build_catalog(words, payload.get("entries", []))
+    candidate = build_catalog(words, payload.get("entries", []))
+    assert_complete_cards(candidate)
+    payload["entries"] = candidate
     args.catalog.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Imported {len(payload['entries'])} unique Duolingo entries.")
 
