@@ -49,6 +49,14 @@ def test_every_catalog_entry_is_a_complete_learning_card():
         assert (ROOT / entry["sentenceAudio"]["src"]).is_file()
 
 
+def test_mon_frere_reuses_juan_carlos_brother_portrait():
+    entries = json.loads(DATA_PATH.read_text(encoding="utf-8"))["entries"]
+    by_word = {entry["word"]: entry for entry in entries}
+
+    assert by_word["mon frère"]["image"] == by_word["frère"]["image"]
+
+
 if __name__ == "__main__":
     test_every_catalog_entry_is_a_complete_learning_card()
+    test_mon_frere_reuses_juan_carlos_brother_portrait()
     print("Vocabulary data test passed.")

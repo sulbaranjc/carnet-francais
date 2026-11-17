@@ -69,9 +69,9 @@
       "importGloss": "mi hermano",
       "learningState": "enrichi",
       "image": {
-        "name": "mon-frere.svg",
-        "src": "assets/images/mon-frere.svg",
-        "alt": "Un garçon joue au football dans un parc."
+        "name": "frere-photo.jpg",
+        "src": "assets/images/frere-photo.jpg",
+        "alt": "Le frère de Juan Carlos regarde l'appareil photo."
       },
       "audio": {
         "name": "mon-frere.mp3",
@@ -99,7 +99,7 @@
       "image": {
         "name": "fils-photo.jpg",
         "src": "assets/images/fils-photo.jpg",
-        "alt": "Le fils de Juan Carlos sourit devant des plantes."
+        "alt": "Un jeune garçon lit un livre illustré."
       },
       "audio": {
         "name": "mon-fils.mp3",
@@ -853,7 +853,7 @@
       "image": {
         "name": "ma-sur-photo.jpg",
         "src": "assets/images/ma-sur-photo.jpg",
-        "alt": "La sœur de Juan Carlos sourit avec des lunettes."
+        "alt": "Une fille joue avec un ballon."
       },
       "audio": {
         "name": "sur.mp3",
@@ -881,7 +881,7 @@
       "image": {
         "name": "fils-photo.jpg",
         "src": "assets/images/fils-photo.jpg",
-        "alt": "Le fils de Juan Carlos sourit devant des plantes."
+        "alt": "Un garçon joue dans un jardin."
       },
       "audio": {
         "name": "fils.mp3",

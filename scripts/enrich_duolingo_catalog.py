@@ -14,10 +14,24 @@ ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "assets" / "data" / "vocabulary.json"
 
 # word, article, IPA, French example, French grammar note, image alt, visual category
+# The same personal portrait deliberately reinforces both « frère » and « mon frère ».
+PERSONAL_IMAGE_OVERRIDES = {
+    "mon-frere": {
+        "name": "frere-photo.jpg",
+        "src": "assets/images/frere-photo.jpg",
+        "alt": "Le frère de Juan Carlos regarde l'appareil photo.",
+    },
+    "frere": {
+        "name": "frere-photo.jpg",
+        "src": "assets/images/frere-photo.jpg",
+        "alt": "Le frère de Juan Carlos regarde l'appareil photo.",
+    },
+}
+
 ROWS = [
     ("pas du tout", "", "/pa dy tu/", "Je n'aime pas du tout le café.", "Locution adverbiale de négation renforcée, généralement employée avec « ne » dans une phrase soignée.", "Une personne repousse une tasse de café avec une expression de refus.", "negation"),
     ("mais", "", "/mɛ/", "J'aime le thé, mais pas le café.", "Conjonction de coordination qui exprime une opposition ou une restriction.", "Deux boissons posées côte à côte, avec une personne qui choisit le thé.", "conversation"),
-    ("mon frère", "le", "/mɔ̃ fʁɛʁ/", "Mon frère joue au football.", "« Frère » est un nom masculin. « Mon » est le déterminant possessif masculin singulier.", "Un garçon joue au football dans un parc.", "famille"),
+    ("mon frère", "le", "/mɔ̃ fʁɛʁ/", "Mon frère joue au football.", "« Frère » est un nom masculin. « Mon » est le déterminant possessif masculin singulier.", "Le frère de Juan Carlos regarde l'appareil photo.", "famille"),
     ("mon fils", "le", "/mɔ̃ fis/", "Mon fils lit une histoire.", "« Fils » est un nom masculin. Le « s » final se prononce /s/ dans « fils ».", "Un jeune garçon lit un livre illustré.", "famille"),
     ("ma tante", "la", "/ma tɑ̃t/", "Ma tante prépare le dîner.", "« Tante » est un nom féminin. « Ma » est le déterminant possessif féminin singulier.", "Une femme prépare un repas dans une cuisine.", "famille"),
     ("toujours", "", "/tu.ʒuʁ/", "Il arrive toujours à l'heure.", "Adverbe qui indique une action habituelle, continue ou répétée.", "Une personne arrive devant une horloge à l'heure exacte.", "temps"),
@@ -49,7 +63,7 @@ ROWS = [
     ("fils", "le", "/fis/", "Son fils joue dans le jardin.", "« Fils » est un nom masculin ; au singulier, le « s » se prononce.", "Un garçon joue dans un jardin.", "famille"),
     ("tu as", "", "/ty a/", "Tu as une belle idée.", "« As » est la forme du verbe « avoir » avec « tu » au présent.", "Un enfant sourit avec une ampoule au-dessus de sa tête.", "idee"),
     ("oh", "", "/o/", "Oh, le chat dort ici !", "« Oh » est une interjection qui exprime une émotion ou une surprise.", "Un enfant surpris regarde un chat endormi.", "emotion"),
-    ("frère", "le", "/fʁɛʁ/", "Mon frère aime le football.", "« Frère » est un nom masculin : un frère, le frère.", "Un garçon joue au football.", "famille"),
+    ("frère", "le", "/fʁɛʁ/", "Mon frère aime le football.", "« Frère » est un nom masculin : un frère, le frère.", "Le frère de Juan Carlos regarde l'appareil photo.", "famille"),
     ("tu viens de", "", "/ty vjɛ̃ də/", "Tu viens de Paris, n'est-ce pas ?", "« Viens » est la forme du verbe « venir » avec « tu » au présent ; « venir de » peut indiquer l'origine.", "Un garçon arrive de Paris avec une valise.", "voyage"),
     ("tu viens d'où", "", "/ty vjɛ̃ du/", "Tu viens d'où après l'école ?", "« Tu viens d'où ? » est une question familière pour demander l'origine ou le lieu de départ.", "Deux enfants parlent près d'une école.", "dialogue"),
     ("à bientôt", "", "/a bjɛ̃.to/", "À bientôt, Léa !", "« À bientôt » est une formule pour prendre congé et dire que l'on se reverra prochainement.", "Deux amis se disent au revoir en souriant.", "salutation"),
@@ -97,10 +111,11 @@ def complete_entry(entry: dict, row: tuple[str, str, str, str, str, str, str]) -
             "learningState": "enrichi",
         }
     )
-    entry.setdefault(
-        "image",
-        {"name": f"{identifier}.svg", "src": f"assets/images/{identifier}.svg", "alt": image_alt},
-    )
+    default_image = {"name": f"{identifier}.svg", "src": f"assets/images/{identifier}.svg", "alt": image_alt}
+    if identifier in PERSONAL_IMAGE_OVERRIDES:
+        entry["image"] = PERSONAL_IMAGE_OVERRIDES[identifier].copy()
+    else:
+        entry.setdefault("image", default_image)
     entry["image"]["alt"] = image_alt
     entry.setdefault("audio", {"name": f"{identifier}.mp3", "src": f"assets/media/audio/{identifier}.mp3"})
     entry.setdefault(
