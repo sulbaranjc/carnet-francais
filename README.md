@@ -47,6 +47,24 @@ tests/               Validaciones automatizadas
 index.html           Punto de entrada estático
 ```
 
+## Despliegue público con Docker
+
+La imagen se sirve con Nginx y se integra con la red externa `nginx-proxy` de
+VM104. No publica puertos propios: el proxy recibe el subdominio y enruta al
+contenedor mediante `VIRTUAL_HOST` y `VIRTUAL_PORT`.
+
+```bash
+cp .env.example .env
+# Edita APP_DOMAIN con el subdominio elegido.
+docker compose up -d --build
+```
+
+Comprueba el contenedor con `docker compose ps` y la ruta con:
+
+```bash
+curl --resolve "$APP_DOMAIN:80:127.0.0.1" "http://$APP_DOMAIN/health"
+```
+
 ## PDF e ilustraciones
 
 El PDF imprimible está disponible en `dist/carnet-francais.pdf`. Las

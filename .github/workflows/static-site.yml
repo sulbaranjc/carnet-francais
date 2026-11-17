@@ -21,3 +21,5 @@ jobs:
           node-version: "22"
       - name: Validate static application
         run: npm test
+      - name: Build container image
+        run: docker build --tag carnet-francais:ci .

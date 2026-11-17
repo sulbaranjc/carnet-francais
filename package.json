@@ -7,7 +7,8 @@
     "test:data": "python3 tests/test_vocabulary_data.py",
     "test:responsive": "python3 tests/test_responsive_css.py",
     "test:desktop": "python3 tests/test_desktop_layout.py",
+    "test:deployment": "python3 tests/test_deployment_manifest.py",
     "test:static": "python3 tests/validate_static_site.py",
-    "test": "npm run test:js && npm run test:data && npm run test:responsive && npm run test:desktop && npm run test:static"
+    "test": "npm run test:js && npm run test:data && npm run test:responsive && npm run test:desktop && npm run test:deployment && npm run test:static"
   }
 }

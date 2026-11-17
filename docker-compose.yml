@@ -1,0 +1,18 @@
+name: ecoute-repete
+
+services:
+  web:
+    build:
+      context: .
+    image: ecoute-repete:latest
+    restart: unless-stopped
+    environment:
+      VIRTUAL_HOST: ${APP_DOMAIN:?Set APP_DOMAIN in .env}
+      VIRTUAL_PORT: "80"
+    networks:
+      - nginx-proxy
+
+networks:
+  nginx-proxy:
+    external: true
+    name: nginx-proxy
