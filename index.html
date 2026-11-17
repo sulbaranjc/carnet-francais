@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mon carnet de français — audio français · Henri</title>
+<style>
+  :root {
+    --paper: #fffdf8;
+    --ink: #17313b;
+    --muted: #587078;
+    --line: #dce6e3;
+    --green: #2a8f67;
+    --mint: #bfe8d2;
+    --coral: #f07c6a;
+    --blue: #6fc2e8;
+    --gold: #f6c85f;
+    --lavender: #c9b6ff;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: "DejaVu Sans", Arial, sans-serif; }
+  main { width: min(960px, 100%); margin: 0 auto; padding: 42px 28px 64px; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 24px; margin-bottom: 26px; }
+  .eyebrow { color: var(--green); font-size: .75rem; font-weight: 800; letter-spacing: .12em; }
+  h1 { font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1; margin: 10px 0; letter-spacing: -.04em; }
+  header p { color: var(--muted); margin: 0; font-size: 1.05rem; }
+  .hint { background: #e9f6ee; border-radius: 14px; padding: 13px 16px; color: #245c46; margin: 26px 0; font-size: .96rem; }
+  .grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 20px; }
+  article { border: 1px solid var(--line); background: #fff; border-radius: 24px; padding: 24px; min-height: 290px; position: relative; overflow: hidden; }
+  article::after { content: ""; position: absolute; width: 118px; height: 118px; border-radius: 50%; right: -43px; top: -43px; background: var(--mint); opacity: .65; }
+  .number { display: inline-grid; place-items: center; width: 34px; height: 24px; color: #fff; background: var(--green); border-radius: 999px; font-size: .75rem; font-weight: 800; }
+  .article { display: block; margin-top: 14px; color: var(--muted); font-weight: 800; font-size: .75rem; letter-spacing: .08em; }
+  h2 { font-size: 2.2rem; margin: 5px 0 18px; letter-spacing: -.04em; }
+  .label { color: var(--muted); font-size: .75rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+  .pronunciation { display: flex; align-items: center; gap: 12px; margin: 5px 0 18px; }
+  .ipa { font-size: 1.15rem; color: var(--green); font-weight: 800; }
+  .sound { min-width: 46px; height: 46px; border: 0; border-radius: 50%; background: var(--green); color: #fff; cursor: pointer; display: inline-grid; place-items: center; box-shadow: 0 3px 0 #176346; transition: transform .15s, background .15s; }
+  .sound:hover, .sound:focus-visible { background: #1e7655; transform: translateY(-1px); outline: 3px solid #99d8ba; outline-offset: 3px; }
+  .sound:active { transform: translateY(2px); box-shadow: 0 1px 0 #176346; }
+  .sound svg { width: 23px; height: 23px; fill: currentColor; }
+  .status { min-height: 1.2em; color: var(--green); font-weight: 800; font-size: .82rem; margin: -9px 0 12px; }
+  .sentence { margin: 6px 0 18px; font-size: 1.05rem; }
+  .rule { color: var(--muted); margin: 4px 0; }
+  .scene { position: absolute; bottom: 18px; right: 20px; width: 132px; height: 116px; border-radius: 18px; object-fit: contain; object-position: center; border: 1px solid #d4e2dc; background: var(--mint); }
+  footer { color: var(--muted); border-top: 1px solid var(--line); margin-top: 36px; padding-top: 20px; font-size: .9rem; }
+  @media (max-width: 650px) { main { padding: 28px 18px 44px; } .grid { grid-template-columns: 1fr; } article { min-height: 275px; } }
+  @media (prefers-reduced-motion: reduce) { .sound { transition: none; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow">MON CARNET DE FRANÇAIS · AUDIO</div>
+    <h1>Écouter et répéter</h1>
+    <p>Appuie sur le bouton vert, écoute, puis répète le mot à voix haute.</p>
+  </header>
+  <div class="hint">Voix française masculine · <strong>fr-FR-HenriNeural</strong>. Les audios restent dans le dossier <strong>assets/audio</strong>.</div>
+  <section class="grid" aria-label="Mots avec prononciation">
+    <article>
+      <span class="number">01</span><span class="article">LA</span><h2>tante</h2>
+      <div class="label">Prononciation</div>
+      <div class="pronunciation"><span class="ipa">/tɑ̃t/</span><button class="sound" data-audio="tante" aria-label="Écouter tante" title="Écouter tante"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9H3zm12.5 3a4.5 4.5 0 0 0-2.5-4.03v8.05A4.5 4.5 0 0 0 15.5 12zm0-8.5v2.05a7 7 0 0 1 0 12.9v2.05a9 9 0 0 0 0-16.95z"/></svg></button></div>
+      <div id="status-tante" class="status" aria-live="polite"></div>
+      <div class="label">Une phrase</div><p class="sentence">Voici ma tante.</p>
+      <div class="label">À retenir</div><p class="rule">la → féminin</p><img class="scene" src="assets/images/tante.png" alt="Une tante et un enfant">
+      <audio id="tante" preload="metadata" src="assets/audio/tante.mp3"></audio>
+    </article>
+    <article>
+      <span class="number">02</span><span class="article">L’</span><h2>oncle</h2>
+      <div class="label">Prononciation</div>
+      <div class="pronunciation"><span class="ipa">/ɔ̃kl/</span><button class="sound" data-audio="oncle" aria-label="Écouter oncle" title="Écouter oncle"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9H3zm12.5 3a4.5 4.5 0 0 0-2.5-4.03v8.05A4.5 4.5 0 0 0 15.5 12zm0-8.5v2.05a7 7 0 0 1 0 12.9v2.05a9 9 0 0 0 0-16.95z"/></svg></button></div>
+      <div id="status-oncle" class="status" aria-live="polite"></div>
+      <div class="label">Une phrase</div><p class="sentence">Voici mon oncle.</p>
+      <div class="label">À retenir</div><p class="rule">mon → masculin</p><img class="scene" src="assets/images/oncle.png" alt="Un oncle et un enfant">
+      <audio id="oncle" preload="metadata" src="assets/audio/oncle.mp3"></audio>
+    </article>
+    <article class="tea">
+      <span class="number">03</span><span class="article">LE</span><h2>thé</h2>
+      <div class="label">Prononciation</div>
+      <div class="pronunciation"><span class="ipa">/te/</span><button class="sound" data-audio="the" aria-label="Écouter thé" title="Écouter thé"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9H3zm12.5 3a4.5 4.5 0 0 0-2.5-4.03v8.05A4.5 4.5 0 0 0 15.5 12zm0-8.5v2.05a7 7 0 0 1 0 12.9v2.05a9 9 0 0 0 0-16.95z"/></svg></button></div>
+      <div id="status-the" class="status" aria-live="polite"></div>
+      <div class="label">Une phrase</div><p class="sentence">Le thé est chaud.</p>
+      <div class="label">À retenir</div><p class="rule">le → masculin</p><img class="scene" src="assets/images/the.png" alt="Une tasse de thé">
+      <audio id="the" preload="metadata" src="assets/audio/the.mp3"></audio>
+    </article>
+    <article class="hello">
+      <span class="number">04</span><h2>Bonjour !</h2>
+      <div class="label">Prononciation</div>
+      <div class="pronunciation"><span class="ipa">/bɔ̃.ʒuʁ/</span><button class="sound" data-audio="bonjour" aria-label="Écouter Bonjour" title="Écouter Bonjour"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9H3zm12.5 3a4.5 4.5 0 0 0-2.5-4.03v8.05A4.5 4.5 0 0 0 15.5 12zm0-8.5v2.05a7 7 0 0 1 0 12.9v2.05A9 9 0 0 0 15.5 3.5z"/></svg></button></div>
+      <div id="status-bonjour" class="status" aria-live="polite"></div>
+      <div class="label">Une phrase</div><p class="sentence">Bonjour, tante !</p>
+      <div class="label">À retenir</div><p class="rule">Je salue une personne.</p><img class="scene" src="assets/images/bonjour.png" alt="Une personne qui salue">
+      <audio id="bonjour" preload="metadata" src="assets/audio/bonjour.mp3"></audio>
+    </article>
+  </section>
+  <footer>Mon carnet de français · Version audio</footer>
+</main>
+<script>
+  const audios = [...document.querySelectorAll('audio')];
+  function resetButtons() {
+    document.querySelectorAll('.sound').forEach(button => {
+      button.setAttribute('aria-label', `Écouter ${button.dataset.audio}`);
+      button.title = button.getAttribute('aria-label');
+    });
+    document.querySelectorAll('.status').forEach(status => status.textContent = '');
+  }
+  document.querySelectorAll('.sound').forEach(button => {
+    button.addEventListener('click', async () => {
+      const audio = document.getElementById(button.dataset.audio);
+      const status = document.getElementById(`status-${button.dataset.audio}`);
+      if (!audio.paused) { audio.pause(); audio.currentTime = 0; resetButtons(); return; }
+      audios.forEach(item => { if (item !== audio) { item.pause(); item.currentTime = 0; } });
+      resetButtons();
+      try {
+        await audio.play();
+        status.textContent = 'Lecture…';
+        button.setAttribute('aria-label', 'Arrêter la lecture');
+        button.title = 'Arrêter la lecture';
+      } catch (error) {
+        status.textContent = 'Le fichier audio est introuvable.';
+      }
+    });
+  });
+  audios.forEach(audio => audio.addEventListener('ended', resetButtons));
+</script>
+</body>
+</html>
