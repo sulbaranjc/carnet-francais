@@ -125,9 +125,9 @@
       "importGloss": "mi tía",
       "learningState": "enrichi",
       "image": {
-        "name": "ma-tante.svg",
-        "src": "assets/images/ma-tante.svg",
-        "alt": "Une femme prépare un repas dans une cuisine."
+        "name": "tante-photo.png",
+        "src": "assets/images/tante-photo.png",
+        "alt": "La tante de Juan Carlos regarde l'appareil photo."
       },
       "audio": {
         "name": "ma-tante.mp3",
@@ -681,9 +681,9 @@
       "sentence": "Ma tante arrive ce soir.",
       "rule": "« Tante » est un nom féminin : une tante, la tante.",
       "image": {
-        "name": "tante.png",
-        "src": "assets/images/tante.png",
-        "alt": "Une femme arrive avec une valise."
+        "name": "tante-photo.png",
+        "src": "assets/images/tante-photo.png",
+        "alt": "La tante de Juan Carlos regarde l'appareil photo."
       },
       "audio": {
         "name": "tante.mp3",

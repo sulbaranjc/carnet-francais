@@ -56,7 +56,16 @@ def test_mon_frere_reuses_juan_carlos_brother_portrait():
     assert by_word["mon frère"]["image"] == by_word["frère"]["image"]
 
 
+def test_tante_cards_reuse_juan_carlos_aunt_portrait():
+    entries = json.loads(DATA_PATH.read_text(encoding="utf-8"))["entries"]
+    by_word = {entry["word"]: entry for entry in entries}
+
+    assert by_word["ma tante"]["image"] == by_word["tante"]["image"]
+    assert by_word["tante"]["image"]["src"] == "assets/images/tante-photo.png"
+
+
 if __name__ == "__main__":
     test_every_catalog_entry_is_a_complete_learning_card()
     test_mon_frere_reuses_juan_carlos_brother_portrait()
+    test_tante_cards_reuse_juan_carlos_aunt_portrait()
     print("Vocabulary data test passed.")
