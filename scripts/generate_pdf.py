@@ -147,9 +147,9 @@ def draw_family_scene(c, x, y, aunt=True):
     c.setFillColor(CORAL)
     c.roundRect(x + 142, y + 34, 15, 12, 3, stroke=0, fill=1)
     if aunt:
-        draw_human(c, x + 77, y + 35, CORAL, woman=True)
+        draw_human(c, x + 77, y + 17, CORAL, woman=True)
     else:
-        draw_human(c, x + 77, y + 35, DARK_BLUE)
+        draw_human(c, x + 77, y + 17, DARK_BLUE)
     draw_human(c, x + 121, y + 26, YELLOW, child=True)
 
 

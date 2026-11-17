@@ -39,14 +39,16 @@ tests/               Validaciones automatizadas
 index.html           Punto de entrada estático
 ```
 
-## PDF
+## PDF e ilustraciones
 
-El PDF imprimible está disponible en `dist/carnet-francais.pdf`.
-Para regenerarlo:
+El PDF imprimible está disponible en `dist/carnet-francais.pdf`. Las
+ilustraciones de familia se generan desde las mismas funciones vectoriales que
+el PDF, para que ambos formatos mantengan el mismo encuadre.
 
 ```bash
 python -m venv .venv
 .venv/bin/pip install -r requirements.txt
+.venv/bin/python scripts/render_illustrations.py
 .venv/bin/python scripts/generate_pdf.py
 ```
 

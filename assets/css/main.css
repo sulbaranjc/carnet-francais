@@ -150,10 +150,10 @@ h2 {
 
 .scene {
   position: absolute;
-  right: 20px;
-  bottom: 18px;
-  width: 132px;
-  height: 116px;
+  right: 18px;
+  bottom: 16px;
+  width: 156px;
+  height: 142px;
   border: 1px solid #d4e2dc;
   border-radius: 18px;
   object-fit: contain;
