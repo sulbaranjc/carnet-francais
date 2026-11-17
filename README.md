@@ -5,8 +5,7 @@ pronunciación IPA y audio. El contenido de aprendizaje se presenta en francés.
 
 ## Desarrollo local
 
-No necesita dependencias de frontend. Abre `index.html` directamente o inicia
-un servidor estático:
+No necesita dependencias de frontend. Inicia un servidor estático:
 
 ```bash
 python3 -m http.server 8000
@@ -14,23 +13,32 @@ python3 -m http.server 8000
 
 Después abre `http://localhost:8000`.
 
+## Datos y búsqueda
+
+El catálogo vive físicamente en `assets/data/vocabulary.json`. Cada entrada
+contiene todos los datos de un card: identificador, orden, palabra, artículo,
+IPA, frase, regla, nombre/ruta/alternativa de la ilustración y nombre/ruta de
+los audios de palabra y frase. `assets/js/app.js` obtiene ese JSON con `fetch`,
+construye los cards en el DOM y filtra en cada pulsación las palabras que
+comienzan por la consulta.
+
 ## Validación
 
 ```bash
-python3 tests/validate_static_site.py
+npm test
 ```
 
-La validación comprueba que no haya estilos ni JavaScript embebidos, que los
-recursos referenciados existan y que el inventario de audios e ilustraciones
-esté completo.
+La suite verifica el filtrado por prefijo, la estructura y rutas del catálogo
+JSON y que los recursos de la aplicación existan.
 
 ## Estructura
 
 ```text
 assets/
 ├── css/             Estilos de la aplicación
-├── js/              Comportamiento del reproductor de audio
+├── data/            Catálogo JSON de palabras, audios e ilustraciones
 ├── images/          Ilustraciones semirrealistas
+├── js/              Renderizado dinámico, búsqueda y reproductor
 └── media/audio/     Pronunciaciones francesas
 
 dist/                PDF preparado para lectura e impresión
@@ -49,6 +57,7 @@ el PDF, para que ambos formatos mantengan el mismo encuadre.
 python -m venv .venv
 .venv/bin/pip install -r requirements.txt
 .venv/bin/python scripts/render_illustrations.py
+.venv/bin/python scripts/generate_audio.py
 .venv/bin/python scripts/generate_pdf.py
 ```
 

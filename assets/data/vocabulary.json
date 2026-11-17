@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "tante",
+      "number": 1,
+      "word": "tante",
+      "article": "la",
+      "ipa": "/tɑ̃t/",
+      "sentence": "Voici ma tante.",
+      "rule": "la → féminin",
+      "image": {
+        "name": "tante.png",
+        "src": "assets/images/tante.png",
+        "alt": "Une tante et un enfant"
+      },
+      "audio": {
+        "name": "tante.mp3",
+        "src": "assets/media/audio/tante.mp3"
+      },
+      "sentenceAudio": {
+        "name": "tante-phrase.mp3",
+        "src": "assets/media/audio/sentences/tante-phrase.mp3"
+      }
+    },
+    {
+      "id": "oncle",
+      "number": 2,
+      "word": "oncle",
+      "article": "l’",
+      "ipa": "/ɔ̃kl/",
+      "sentence": "Voici mon oncle.",
+      "rule": "mon → masculin",
+      "image": {
+        "name": "oncle.png",
+        "src": "assets/images/oncle.png",
+        "alt": "Un oncle et un enfant"
+      },
+      "audio": {
+        "name": "oncle.mp3",
+        "src": "assets/media/audio/oncle.mp3"
+      },
+      "sentenceAudio": {
+        "name": "oncle-phrase.mp3",
+        "src": "assets/media/audio/sentences/oncle-phrase.mp3"
+      }
+    },
+    {
+      "id": "the",
+      "number": 3,
+      "word": "thé",
+      "article": "le",
+      "ipa": "/te/",
+      "sentence": "Le thé est chaud.",
+      "rule": "le → masculin",
+      "image": {
+        "name": "the.png",
+        "src": "assets/images/the.png",
+        "alt": "Une tasse de thé"
+      },
+      "audio": {
+        "name": "the.mp3",
+        "src": "assets/media/audio/the.mp3"
+      },
+      "sentenceAudio": {
+        "name": "the-phrase.mp3",
+        "src": "assets/media/audio/sentences/the-phrase.mp3"
+      }
+    },
+    {
+      "id": "bonjour",
+      "number": 4,
+      "word": "Bonjour !",
+      "article": "",
+      "ipa": "/bɔ̃.ʒuʁ/",
+      "sentence": "Bonjour, tante !",
+      "rule": "Je salue une personne.",
+      "image": {
+        "name": "bonjour.png",
+        "src": "assets/images/bonjour.png",
+        "alt": "Une personne qui salue"
+      },
+      "audio": {
+        "name": "bonjour.mp3",
+        "src": "assets/media/audio/bonjour.mp3"
+      },
+      "sentenceAudio": {
+        "name": "bonjour-phrase.mp3",
+        "src": "assets/media/audio/sentences/bonjour-phrase.mp3"
+      }
+    }
+  ]
+}

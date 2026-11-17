@@ -1,0 +1,11 @@
+{
+  "name": "carnet-francais",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:js": "node --test tests/vocabulary.test.mjs",
+    "test:data": "python3 tests/test_vocabulary_data.py",
+    "test:static": "python3 tests/validate_static_site.py",
+    "test": "npm run test:js && npm run test:data && npm run test:static"
+  }
+}

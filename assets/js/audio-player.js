@@ -1,46 +1,49 @@
 "use strict";
 
-const audioElements = [...document.querySelectorAll("audio")];
-const audioButtons = [...document.querySelectorAll(".audio-button")];
-
-function resetPlaybackState() {
-  audioButtons.forEach((button) => {
-    const word = button.getAttribute("data-audio");
-    button.setAttribute("aria-label", `Écouter ${word}`);
+function resetPlaybackState(container) {
+  container.querySelectorAll(".audio-button").forEach((button) => {
+    const audioId = button.dataset.audio;
+    const label = button.dataset.audioLabel ?? `Écouter ${audioId}`;
+    button.setAttribute("aria-label", label);
     button.setAttribute("aria-pressed", "false");
   });
 
-  document.querySelectorAll(".playback-status").forEach((status) => {
+  container.querySelectorAll(".playback-status").forEach((status) => {
     status.textContent = "";
   });
 }
 
-function stopAllExcept(activeAudio) {
-  audioElements.forEach((audio) => {
-    if (audio !== activeAudio) {
-      audio.pause();
-      audio.currentTime = 0;
-    }
+export function stopAudio(container) {
+  container.querySelectorAll("audio").forEach((audio) => {
+    audio.pause();
+    audio.currentTime = 0;
   });
+  resetPlaybackState(container);
 }
 
-audioButtons.forEach((button) => {
-  button.addEventListener("click", async () => {
-    const audioId = button.getAttribute("data-audio");
-    const audio = document.getElementById(audioId);
-    const status = document.getElementById(`status-${audioId}`);
+export function initAudioPlayer(container) {
+  container.addEventListener("click", async (event) => {
+    const button = event.target.closest(".audio-button");
+    if (!button || !container.contains(button)) return;
 
+    const audioId = button.dataset.audio;
+    const statusId = button.dataset.statusId ?? audioId;
+    const audio = container.querySelector(`#${CSS.escape(audioId)}`);
+    const status = container.querySelector(`#status-${CSS.escape(statusId)}`);
     if (!audio || !status) return;
 
     if (!audio.paused) {
-      audio.pause();
-      audio.currentTime = 0;
-      resetPlaybackState();
+      stopAudio(container);
       return;
     }
 
-    stopAllExcept(audio);
-    resetPlaybackState();
+    container.querySelectorAll("audio").forEach((otherAudio) => {
+      if (otherAudio !== audio) {
+        otherAudio.pause();
+        otherAudio.currentTime = 0;
+      }
+    });
+    resetPlaybackState(container);
 
     try {
       await audio.play();
@@ -51,8 +54,6 @@ audioButtons.forEach((button) => {
       status.textContent = "Le fichier audio est introuvable.";
     }
   });
-});
 
-audioElements.forEach((audio) => {
-  audio.addEventListener("ended", resetPlaybackState);
-});
+  container.addEventListener("ended", () => resetPlaybackState(container), true);
+}
