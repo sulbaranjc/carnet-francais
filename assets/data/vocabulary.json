@@ -25,7 +25,9 @@
         "name": "pas-du-tout-phrase.mp3",
         "src": "assets/media/audio/sentences/pas-du-tout-phrase.mp3"
       },
-      "illustrationKind": "negation"
+      "illustrationKind": "negation",
+      "translation": "en absoluto",
+      "sentenceTranslation": "No me gusta el café en absoluto."
     },
     {
       "id": "mais",
@@ -51,7 +53,9 @@
         "name": "mais-phrase.mp3",
         "src": "assets/media/audio/sentences/mais-phrase.mp3"
       },
-      "illustrationKind": "conversation"
+      "illustrationKind": "conversation",
+      "translation": "pero",
+      "sentenceTranslation": "Me gusta el té, pero no el café."
     },
     {
       "id": "mon-frere",
@@ -77,7 +81,9 @@
         "name": "mon-frere-phrase.mp3",
         "src": "assets/media/audio/sentences/mon-frere-phrase.mp3"
       },
-      "illustrationKind": "famille"
+      "illustrationKind": "famille",
+      "translation": "mi hermano",
+      "sentenceTranslation": "Mi hermano juega al fútbol."
     },
     {
       "id": "mon-fils",
@@ -103,7 +109,9 @@
         "name": "mon-fils-phrase.mp3",
         "src": "assets/media/audio/sentences/mon-fils-phrase.mp3"
       },
-      "illustrationKind": "famille"
+      "illustrationKind": "famille",
+      "translation": "mi hijo",
+      "sentenceTranslation": "Mi hijo lee un cuento."
     },
     {
       "id": "ma-tante",
@@ -129,7 +137,9 @@
         "name": "ma-tante-phrase.mp3",
         "src": "assets/media/audio/sentences/ma-tante-phrase.mp3"
       },
-      "illustrationKind": "famille"
+      "illustrationKind": "famille",
+      "translation": "mi tía",
+      "sentenceTranslation": "Mi tía prepara la cena."
     },
     {
       "id": "toujours",
@@ -155,7 +165,9 @@
         "name": "toujours-phrase.mp3",
         "src": "assets/media/audio/sentences/toujours-phrase.mp3"
       },
-      "illustrationKind": "temps"
+      "illustrationKind": "temps",
+      "translation": "siempre",
+      "sentenceTranslation": "Siempre llega puntual."
     },
     {
       "id": "interessant",
@@ -181,7 +193,9 @@
         "name": "interessant-phrase.mp3",
         "src": "assets/media/audio/sentences/interessant-phrase.mp3"
       },
-      "illustrationKind": "adjectif"
+      "illustrationKind": "adjectif",
+      "translation": "interesante",
+      "sentenceTranslation": "Este libro es muy interesante."
     },
     {
       "id": "tres",
@@ -207,7 +221,9 @@
         "name": "tres-phrase.mp3",
         "src": "assets/media/audio/sentences/tres-phrase.mp3"
       },
-      "illustrationKind": "intensite"
+      "illustrationKind": "intensite",
+      "translation": "muy",
+      "sentenceTranslation": "La clase está muy tranquila."
     },
     {
       "id": "ma-niece",
@@ -233,7 +249,9 @@
         "name": "ma-niece-phrase.mp3",
         "src": "assets/media/audio/sentences/ma-niece-phrase.mp3"
       },
-      "illustrationKind": "famille"
+      "illustrationKind": "famille",
+      "translation": "mi sobrina",
+      "sentenceTranslation": "Mi sobrina dibuja un gato."
     },
     {
       "id": "ma-sur",
@@ -259,7 +277,9 @@
         "name": "ma-sur-phrase.mp3",
         "src": "assets/media/audio/sentences/ma-sur-phrase.mp3"
       },
-      "illustrationKind": "famille"
+      "illustrationKind": "famille",
+      "translation": "mi hermana",
+      "sentenceTranslation": "Mi hermana canta bien."
     },
     {
       "id": "elle",
@@ -285,7 +305,9 @@
         "name": "elle-phrase.mp3",
         "src": "assets/media/audio/sentences/elle-phrase.mp3"
       },
-      "illustrationKind": "conversation"
+      "illustrationKind": "conversation",
+      "translation": "ella",
+      "sentenceTranslation": "Ella habla con su amiga."
     },
     {
       "id": "est",
@@ -311,7 +333,9 @@
         "name": "est-phrase.mp3",
         "src": "assets/media/audio/sentences/est-phrase.mp3"
       },
-      "illustrationKind": "position"
+      "illustrationKind": "position",
+      "translation": "es / está",
+      "sentenceTranslation": "El gato está sobre la mesa."
     },
     {
       "id": "bien-sur",
@@ -337,7 +361,9 @@
         "name": "bien-sur-phrase.mp3",
         "src": "assets/media/audio/sentences/bien-sur-phrase.mp3"
       },
-      "illustrationKind": "conversation"
+      "illustrationKind": "conversation",
+      "translation": "por supuesto",
+      "sentenceTranslation": "Por supuesto, puedo ayudarte."
     },
     {
       "id": "il",
@@ -363,7 +389,9 @@
         "name": "il-phrase.mp3",
         "src": "assets/media/audio/sentences/il-phrase.mp3"
       },
-      "illustrationKind": "personne"
+      "illustrationKind": "personne",
+      "translation": "él",
+      "sentenceTranslation": "Él mira el cielo."
     },
     {
       "id": "mechant",
@@ -389,7 +417,9 @@
         "name": "mechant-phrase.mp3",
         "src": "assets/media/audio/sentences/mechant-phrase.mp3"
       },
-      "illustrationKind": "adjectif"
+      "illustrationKind": "adjectif",
+      "translation": "malo",
+      "sentenceTranslation": "El lobo es malo en esta historia."
     },
     {
       "id": "amusant",
@@ -415,7 +445,9 @@
         "name": "amusant-phrase.mp3",
         "src": "assets/media/audio/sentences/amusant-phrase.mp3"
       },
-      "illustrationKind": "adjectif"
+      "illustrationKind": "adjectif",
+      "translation": "divertido",
+      "sentenceTranslation": "Este juego es divertido."
     },
     {
       "id": "il-vient",
@@ -441,7 +473,9 @@
         "name": "il-vient-phrase.mp3",
         "src": "assets/media/audio/sentences/il-vient-phrase.mp3"
       },
-      "illustrationKind": "mouvement"
+      "illustrationKind": "mouvement",
+      "translation": "viene",
+      "sentenceTranslation": "Él viene a casa esta noche."
     },
     {
       "id": "il-habite",
@@ -467,7 +501,9 @@
         "name": "il-habite-phrase.mp3",
         "src": "assets/media/audio/sentences/il-habite-phrase.mp3"
       },
-      "illustrationKind": "lieu"
+      "illustrationKind": "lieu",
+      "translation": "vive",
+      "sentenceTranslation": "Él vive cerca de la escuela."
     },
     {
       "id": "neveu",
@@ -493,7 +529,9 @@
         "name": "neveu-phrase.mp3",
         "src": "assets/media/audio/sentences/neveu-phrase.mp3"
       },
-      "illustrationKind": "famille"
+      "illustrationKind": "famille",
+      "translation": "sobrino",
+      "sentenceTranslation": "Mi sobrino juega en el jardín."
     },
     {
       "id": "niece",
@@ -519,7 +557,9 @@
         "name": "niece-phrase.mp3",
         "src": "assets/media/audio/sentences/niece-phrase.mp3"
       },
-      "illustrationKind": "famille"
+      "illustrationKind": "famille",
+      "translation": "sobrina",
+      "sentenceTranslation": "Mi sobrina ama a los animales."
     },
     {
       "id": "a",
@@ -545,7 +585,9 @@
         "name": "a-phrase.mp3",
         "src": "assets/media/audio/sentences/a-phrase.mp3"
       },
-      "illustrationKind": "lieu"
+      "illustrationKind": "lieu",
+      "translation": "a",
+      "sentenceTranslation": "Ella va a la escuela."
     },
     {
       "id": "elle-habite",
@@ -571,7 +613,9 @@
         "name": "elle-habite-phrase.mp3",
         "src": "assets/media/audio/sentences/elle-habite-phrase.mp3"
       },
-      "illustrationKind": "maison"
+      "illustrationKind": "maison",
+      "translation": "vive",
+      "sentenceTranslation": "Ella vive cerca del parque."
     },
     {
       "id": "maintenant",
@@ -597,7 +641,9 @@
         "name": "maintenant-phrase.mp3",
         "src": "assets/media/audio/sentences/maintenant-phrase.mp3"
       },
-      "illustrationKind": "temps"
+      "illustrationKind": "temps",
+      "translation": "ahora",
+      "sentenceTranslation": "Ahora leemos un cuento."
     },
     {
       "id": "oncle",
@@ -622,7 +668,9 @@
       },
       "source": "duolingo",
       "learningState": "enrichi",
-      "illustrationKind": "famille"
+      "illustrationKind": "famille",
+      "translation": "tío",
+      "sentenceTranslation": "A mi tío le gusta cocinar."
     },
     {
       "id": "tante",
@@ -647,7 +695,9 @@
       },
       "source": "duolingo",
       "learningState": "enrichi",
-      "illustrationKind": "famille"
+      "illustrationKind": "famille",
+      "translation": "tía",
+      "sentenceTranslation": "Mi tía llega esta noche."
     },
     {
       "id": "de",
@@ -673,7 +723,9 @@
         "name": "de-phrase.mp3",
         "src": "assets/media/audio/sentences/de-phrase.mp3"
       },
-      "illustrationKind": "objet"
+      "illustrationKind": "objet",
+      "translation": "de",
+      "sentenceTranslation": "La bicicleta de Paul es azul."
     },
     {
       "id": "une",
@@ -699,7 +751,9 @@
         "name": "une-phrase.mp3",
         "src": "assets/media/audio/sentences/une-phrase.mp3"
       },
-      "illustrationKind": "nature"
+      "illustrationKind": "nature",
+      "translation": "una",
+      "sentenceTranslation": "Una flor crece en el jardín."
     },
     {
       "id": "elle-vient",
@@ -725,7 +779,9 @@
         "name": "elle-vient-phrase.mp3",
         "src": "assets/media/audio/sentences/elle-vient-phrase.mp3"
       },
-      "illustrationKind": "voyage"
+      "illustrationKind": "voyage",
+      "translation": "viene",
+      "sentenceTranslation": "Ella viene de Lyon."
     },
     {
       "id": "j-ai",
@@ -751,7 +807,9 @@
         "name": "j-ai-phrase.mp3",
         "src": "assets/media/audio/sentences/j-ai-phrase.mp3"
       },
-      "illustrationKind": "animal"
+      "illustrationKind": "animal",
+      "translation": "tengo",
+      "sentenceTranslation": "Tengo un gato pequeño."
     },
     {
       "id": "fille",
@@ -777,7 +835,9 @@
         "name": "fille-phrase.mp3",
         "src": "assets/media/audio/sentences/fille-phrase.mp3"
       },
-      "illustrationKind": "personne"
+      "illustrationKind": "personne",
+      "translation": "niña / hija",
+      "sentenceTranslation": "La niña dibuja un sol."
     },
     {
       "id": "sur",
@@ -803,7 +863,9 @@
         "name": "sur-phrase.mp3",
         "src": "assets/media/audio/sentences/sur-phrase.mp3"
       },
-      "illustrationKind": "famille"
+      "illustrationKind": "famille",
+      "translation": "hermana",
+      "sentenceTranslation": "Mi hermana juega al balón."
     },
     {
       "id": "fils",
@@ -829,7 +891,9 @@
         "name": "fils-phrase.mp3",
         "src": "assets/media/audio/sentences/fils-phrase.mp3"
       },
-      "illustrationKind": "famille"
+      "illustrationKind": "famille",
+      "translation": "hijo",
+      "sentenceTranslation": "Su hijo juega en el jardín."
     },
     {
       "id": "tu-as",
@@ -855,7 +919,9 @@
         "name": "tu-as-phrase.mp3",
         "src": "assets/media/audio/sentences/tu-as-phrase.mp3"
       },
-      "illustrationKind": "idee"
+      "illustrationKind": "idee",
+      "translation": "tienes",
+      "sentenceTranslation": "Tienes una idea bonita."
     },
     {
       "id": "oh",
@@ -881,7 +947,9 @@
         "name": "oh-phrase.mp3",
         "src": "assets/media/audio/sentences/oh-phrase.mp3"
       },
-      "illustrationKind": "emotion"
+      "illustrationKind": "emotion",
+      "translation": "oh",
+      "sentenceTranslation": "¡Oh, el gato duerme aquí!"
     },
     {
       "id": "frere",
@@ -907,7 +975,9 @@
         "name": "frere-phrase.mp3",
         "src": "assets/media/audio/sentences/frere-phrase.mp3"
       },
-      "illustrationKind": "famille"
+      "illustrationKind": "famille",
+      "translation": "hermano",
+      "sentenceTranslation": "A mi hermano le gusta el fútbol."
     },
     {
       "id": "tu-viens-de",
@@ -933,7 +1003,9 @@
         "name": "tu-viens-de-phrase.mp3",
         "src": "assets/media/audio/sentences/tu-viens-de-phrase.mp3"
       },
-      "illustrationKind": "voyage"
+      "illustrationKind": "voyage",
+      "translation": "vienes de",
+      "sentenceTranslation": "Vienes de París, ¿verdad?"
     },
     {
       "id": "tu-viens-d-ou",
@@ -959,7 +1031,9 @@
         "name": "tu-viens-d-ou-phrase.mp3",
         "src": "assets/media/audio/sentences/tu-viens-d-ou-phrase.mp3"
       },
-      "illustrationKind": "dialogue"
+      "illustrationKind": "dialogue",
+      "translation": "¿de dónde vienes?",
+      "sentenceTranslation": "¿De dónde vienes después de clase?"
     },
     {
       "id": "a-bientot",
@@ -985,7 +1059,9 @@
         "name": "a-bientot-phrase.mp3",
         "src": "assets/media/audio/sentences/a-bientot-phrase.mp3"
       },
-      "illustrationKind": "salutation"
+      "illustrationKind": "salutation",
+      "translation": "hasta pronto",
+      "sentenceTranslation": "¡Hasta pronto, Léa!"
     },
     {
       "id": "viens-de",
@@ -1011,7 +1087,9 @@
         "name": "viens-de-phrase.mp3",
         "src": "assets/media/audio/sentences/viens-de-phrase.mp3"
       },
-      "illustrationKind": "voyage"
+      "illustrationKind": "voyage",
+      "translation": "vengo de",
+      "sentenceTranslation": "Vengo de Marsella."
     },
     {
       "id": "moi-aussi",
@@ -1037,7 +1115,9 @@
         "name": "moi-aussi-phrase.mp3",
         "src": "assets/media/audio/sentences/moi-aussi-phrase.mp3"
       },
-      "illustrationKind": "dialogue"
+      "illustrationKind": "dialogue",
+      "translation": "yo también",
+      "sentenceTranslation": "Yo también, me gustan las historias."
     },
     {
       "id": "je",
@@ -1063,7 +1143,9 @@
         "name": "je-phrase.mp3",
         "src": "assets/media/audio/sentences/je-phrase.mp3"
       },
-      "illustrationKind": "personne"
+      "illustrationKind": "personne",
+      "translation": "yo",
+      "sentenceTranslation": "Estoy contento hoy."
     },
     {
       "id": "et-toi",
@@ -1089,7 +1171,9 @@
         "name": "et-toi-phrase.mp3",
         "src": "assets/media/audio/sentences/et-toi-phrase.mp3"
       },
-      "illustrationKind": "conversation"
+      "illustrationKind": "conversation",
+      "translation": "¿y tú?",
+      "sentenceTranslation": "Yo estoy bien, ¿y tú?"
     },
     {
       "id": "je-m-appelle",
@@ -1115,7 +1199,9 @@
         "name": "je-m-appelle-phrase.mp3",
         "src": "assets/media/audio/sentences/je-m-appelle-phrase.mp3"
       },
-      "illustrationKind": "presentation"
+      "illustrationKind": "presentation",
+      "translation": "me llamo",
+      "sentenceTranslation": "Hola, me llamo Léa."
     },
     {
       "id": "bien",
@@ -1141,7 +1227,9 @@
         "name": "bien-phrase.mp3",
         "src": "assets/media/audio/sentences/bien-phrase.mp3"
       },
-      "illustrationKind": "emotion"
+      "illustrationKind": "emotion",
+      "translation": "bien",
+      "sentenceTranslation": "Estoy bien, gracias."
     },
     {
       "id": "ca-va",
@@ -1167,7 +1255,9 @@
         "name": "ca-va-phrase.mp3",
         "src": "assets/media/audio/sentences/ca-va-phrase.mp3"
       },
-      "illustrationKind": "conversation"
+      "illustrationKind": "conversation",
+      "translation": "¿qué tal?",
+      "sentenceTranslation": "Hola, ¿qué tal?"
     },
     {
       "id": "enchante",
@@ -1193,7 +1283,9 @@
         "name": "enchante-phrase.mp3",
         "src": "assets/media/audio/sentences/enchante-phrase.mp3"
       },
-      "illustrationKind": "rencontre"
+      "illustrationKind": "rencontre",
+      "translation": "encantado",
+      "sentenceTranslation": "Encantado, me llamo Hugo."
     },
     {
       "id": "au-revoir",
@@ -1219,7 +1311,9 @@
         "name": "au-revoir-phrase.mp3",
         "src": "assets/media/audio/sentences/au-revoir-phrase.mp3"
       },
-      "illustrationKind": "salutation"
+      "illustrationKind": "salutation",
+      "translation": "adiós",
+      "sentenceTranslation": "¡Adiós y hasta pronto!"
     },
     {
       "id": "parfait",
@@ -1245,7 +1339,9 @@
         "name": "parfait-phrase.mp3",
         "src": "assets/media/audio/sentences/parfait-phrase.mp3"
       },
-      "illustrationKind": "reussite"
+      "illustrationKind": "reussite",
+      "translation": "perfecto",
+      "sentenceTranslation": "Perfecto, estamos preparados."
     },
     {
       "id": "ou",
@@ -1271,7 +1367,9 @@
         "name": "ou-phrase.mp3",
         "src": "assets/media/audio/sentences/ou-phrase.mp3"
       },
-      "illustrationKind": "choix"
+      "illustrationKind": "choix",
+      "translation": "o",
+      "sentenceTranslation": "¿Quieres té o café?"
     },
     {
       "id": "monsieur",
@@ -1297,7 +1395,9 @@
         "name": "monsieur-phrase.mp3",
         "src": "assets/media/audio/sentences/monsieur-phrase.mp3"
       },
-      "illustrationKind": "personne"
+      "illustrationKind": "personne",
+      "translation": "señor",
+      "sentenceTranslation": "Buenos días, señor Martin."
     },
     {
       "id": "non",
@@ -1323,7 +1423,9 @@
         "name": "non-phrase.mp3",
         "src": "assets/media/audio/sentences/non-phrase.mp3"
       },
-      "illustrationKind": "reponse"
+      "illustrationKind": "reponse",
+      "translation": "no",
+      "sentenceTranslation": "No, gracias, no quiero azúcar."
     },
     {
       "id": "sandwich",
@@ -1349,7 +1451,9 @@
         "name": "sandwich-phrase.mp3",
         "src": "assets/media/audio/sentences/sandwich-phrase.mp3"
       },
-      "illustrationKind": "nourriture"
+      "illustrationKind": "nourriture",
+      "translation": "sándwich",
+      "sentenceTranslation": "Quisiera un sándwich, por favor."
     },
     {
       "id": "merci",
@@ -1375,7 +1479,9 @@
         "name": "merci-phrase.mp3",
         "src": "assets/media/audio/sentences/merci-phrase.mp3"
       },
-      "illustrationKind": "politesse"
+      "illustrationKind": "politesse",
+      "translation": "gracias",
+      "sentenceTranslation": "Gracias por su ayuda."
     },
     {
       "id": "et",
@@ -1401,7 +1507,9 @@
         "name": "et-phrase.mp3",
         "src": "assets/media/audio/sentences/et-phrase.mp3"
       },
-      "illustrationKind": "association"
+      "illustrationKind": "association",
+      "translation": "y",
+      "sentenceTranslation": "Paul y Nina llegan juntos."
     },
     {
       "id": "oui",
@@ -1427,7 +1535,9 @@
         "name": "oui-phrase.mp3",
         "src": "assets/media/audio/sentences/oui-phrase.mp3"
       },
-      "illustrationKind": "reponse"
+      "illustrationKind": "reponse",
+      "translation": "sí",
+      "sentenceTranslation": "Sí, lo entiendo."
     },
     {
       "id": "je-voudrais",
@@ -1453,7 +1563,9 @@
         "name": "je-voudrais-phrase.mp3",
         "src": "assets/media/audio/sentences/je-voudrais-phrase.mp3"
       },
-      "illustrationKind": "commande"
+      "illustrationKind": "commande",
+      "translation": "quisiera",
+      "sentenceTranslation": "Quisiera un cruasán, por favor."
     },
     {
       "id": "eclair",
@@ -1479,7 +1591,9 @@
         "name": "eclair-phrase.mp3",
         "src": "assets/media/audio/sentences/eclair-phrase.mp3"
       },
-      "illustrationKind": "patisserie"
+      "illustrationKind": "patisserie",
+      "translation": "pastelito eclair",
+      "sentenceTranslation": "El pastelito de chocolate está delicioso."
     },
     {
       "id": "croissant",
@@ -1505,7 +1619,9 @@
         "name": "croissant-phrase.mp3",
         "src": "assets/media/audio/sentences/croissant-phrase.mp3"
       },
-      "illustrationKind": "patisserie"
+      "illustrationKind": "patisserie",
+      "translation": "cruasán",
+      "sentenceTranslation": "El cruasán todavía está caliente."
     },
     {
       "id": "s-il-vous-plait",
@@ -1531,7 +1647,9 @@
         "name": "s-il-vous-plait-phrase.mp3",
         "src": "assets/media/audio/sentences/s-il-vous-plait-phrase.mp3"
       },
-      "illustrationKind": "politesse"
+      "illustrationKind": "politesse",
+      "translation": "por favor",
+      "sentenceTranslation": "Un café, por favor."
     },
     {
       "id": "bonjour",
@@ -1556,7 +1674,9 @@
       },
       "source": "duolingo",
       "learningState": "enrichi",
-      "illustrationKind": "salutation"
+      "illustrationKind": "salutation",
+      "translation": "buenos días",
+      "sentenceTranslation": "Buenos días, ¿cómo está?"
     },
     {
       "id": "un",
@@ -1582,7 +1702,9 @@
         "name": "un-phrase.mp3",
         "src": "assets/media/audio/sentences/un-phrase.mp3"
       },
-      "illustrationKind": "animal"
+      "illustrationKind": "animal",
+      "translation": "un",
+      "sentenceTranslation": "Un gato duerme en el sofá."
     },
     {
       "id": "madame",
@@ -1608,7 +1730,9 @@
         "name": "madame-phrase.mp3",
         "src": "assets/media/audio/sentences/madame-phrase.mp3"
       },
-      "illustrationKind": "personne"
+      "illustrationKind": "personne",
+      "translation": "señora",
+      "sentenceTranslation": "Buenos días, señora Dupont."
     },
     {
       "id": "cafe",
@@ -1634,7 +1758,9 @@
         "name": "cafe-phrase.mp3",
         "src": "assets/media/audio/sentences/cafe-phrase.mp3"
       },
-      "illustrationKind": "nourriture"
+      "illustrationKind": "nourriture",
+      "translation": "café",
+      "sentenceTranslation": "El café está caliente."
     },
     {
       "id": "the",
@@ -1659,7 +1785,9 @@
       },
       "source": "duolingo",
       "learningState": "enrichi",
-      "illustrationKind": "nourriture"
+      "illustrationKind": "nourriture",
+      "translation": "té",
+      "sentenceTranslation": "El té está caliente."
     }
   ]
 }

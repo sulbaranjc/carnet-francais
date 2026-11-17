@@ -16,8 +16,8 @@ Después abre `http://localhost:8000`.
 ## Datos y búsqueda
 
 El catálogo vive físicamente en `assets/data/vocabulary.json`. **Cada entrada debe ser
-una card completa**: identificador, orden, palabra, artículo o categoría gramatical,
-IPA, frase francesa, regla, ilustración, audio de palabra y audio de frase. El español
+una card completa**: identificador, orden, palabra, traducción al español, artículo o categoría gramatical,
+IPA, frase francesa, traducción de la frase, regla, ilustración, audio de palabra y audio de frase. El español
 de `importGloss` es solo una referencia interna de validación y nunca se muestra.
 `assets/js/app.js` obtiene ese JSON con `fetch`, construye los cards en el DOM y filtra
 en cada pulsación las palabras que comienzan por la consulta.

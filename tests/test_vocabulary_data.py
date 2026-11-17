@@ -9,9 +9,11 @@ REQUIRED_CARD_FIELDS = {
     "id",
     "number",
     "word",
+    "translation",
     "article",
     "ipa",
     "sentence",
+    "sentenceTranslation",
     "rule",
     "image",
     "audio",
@@ -32,8 +34,10 @@ def test_every_catalog_entry_is_a_complete_learning_card():
     for entry in entries:
         assert REQUIRED_CARD_FIELDS <= entry.keys(), f"Incomplete card: {entry['word']}"
         assert entry["word"]
+        assert entry["translation"]
         assert entry["ipa"].startswith("/") and entry["ipa"].endswith("/")
         assert entry["sentence"]
+        assert entry["sentenceTranslation"]
         assert entry["rule"]
         assert entry.get("learningState") != "à enrichir"
 

@@ -15,7 +15,7 @@ from pathlib import Path
 
 PAIR_PATTERN = re.compile(r'heading "([^"]+)".*?paragraph "([^"]+)"', re.DOTALL)
 REQUIRED_CARD_FIELDS = {
-    "id", "number", "word", "article", "ipa", "sentence", "rule", "image", "audio", "sentenceAudio"
+    "id", "number", "word", "translation", "article", "ipa", "sentence", "sentenceTranslation", "rule", "image", "audio", "sentenceAudio"
 }
 
 
@@ -80,8 +80,10 @@ def assert_complete_cards(catalog: list[dict]) -> None:
         entry["word"]
         for entry in catalog
         if not REQUIRED_CARD_FIELDS <= entry.keys()
+        or not entry["translation"]
         or not entry["ipa"]
         or not entry["sentence"]
+        or not entry["sentenceTranslation"]
         or not entry["rule"]
     ]
     if incomplete:
