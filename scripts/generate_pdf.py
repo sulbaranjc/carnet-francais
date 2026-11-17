@@ -6,8 +6,8 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parents[1] / 'dist' / 'carnet-francais.pdf'
-AUDIO_BASE = 'file:///mnt/DocumentosJC/frances/assets/audio/'
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+OUT = PROJECT_ROOT / 'dist' / 'carnet-francais.pdf'
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
 FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
@@ -63,24 +63,6 @@ def rounded_card(c, x, y, w, h):
     c.setLineWidth(1)
     c.roundRect(x, y, w, h, 18, stroke=1, fill=1)
 
-
-def speaker_button(c, x, y, audio_file):
-    """Clickable speaker: opens the companion MP3 in the system player."""
-    c.setFillColor(MINT_DARK)
-    c.circle(x, y, 13, stroke=0, fill=1)
-    c.setFillColor(white)
-    c.rect(x - 7, y - 3, 5, 6, stroke=0, fill=1)
-    path = c.beginPath()
-    path.moveTo(x - 2, y - 3)
-    path.lineTo(x + 5, y - 8)
-    path.lineTo(x + 5, y + 8)
-    path.lineTo(x - 2, y + 3)
-    path.close()
-    c.drawPath(path, stroke=0, fill=1)
-    c.setStrokeColor(white)
-    c.setLineWidth(1.3)
-    c.arc(x + 2, y - 7, x + 12, y + 7, 300, 120)
-    c.linkURL(AUDIO_BASE + audio_file, (x - 15, y - 15, x + 15, y + 15), relative=0, thickness=0)
 
 
 SKIN = HexColor('#D7A07B')
@@ -207,7 +189,7 @@ def draw_hello(c, x, y):
     draw_human(c, x + 63, y + 27, LAVENDER, woman=True, wave=True)
 
 
-def entry(c, y, number, word, article, ipa, audio_file, sentence, hint, kind):
+def entry(c, y, number, word, article, ipa, sentence, hint, kind):
     x, card_w, card_h = 42, W - 84, 310
     rounded_card(c, x, y, card_w, card_h)
     pill(c, f'{number:02d}', x + 26, y + card_h - 46, MINT_DARK, 36)
@@ -215,7 +197,7 @@ def entry(c, y, number, word, article, ipa, audio_file, sentence, hint, kind):
     text(c, word, x + 75, y + card_h - 78, 31, INK, True)
     text(c, 'Prononciation', x + 75, y + card_h - 105, 10, MUTED, True)
     text(c, ipa, x + 75, y + card_h - 127, 15, MINT_DARK, True)
-    speaker_button(c, x + 220, y + card_h - 123, audio_file)
+
     text(c, 'Une phrase', x + 75, y + card_h - 158, 10, MUTED, True)
     text(c, sentence, x + 75, y + card_h - 186, 15, INK)
     text(c, 'À retenir', x + 75, y + card_h - 218, 10, MUTED, True)
@@ -269,13 +251,13 @@ text(c, 'FRANÇAIS SEULEMENT', 52, 38, 10, MUTED, True)
 c.showPage()
 
 page_header(c, 1, 'LES MOTS DU JOUR', 'Je regarde l’image, je lis, puis j’écris.')
-entry(c, 414, 1, 'tante', 'LA', '/tɑ̃t/', 'tante.mp3', 'Voici ma tante.', 'la → féminin', 'aunt')
-entry(c, 72, 2, 'oncle', 'L’', '/ɔ̃kl/', 'oncle.mp3', 'Voici mon oncle.', 'mon → masculin', 'uncle')
+entry(c, 414, 1, 'tante', 'LA', '/tɑ̃t/', 'Voici ma tante.', 'la → féminin', 'aunt')
+entry(c, 72, 2, 'oncle', 'L’', '/ɔ̃kl/', 'Voici mon oncle.', 'mon → masculin', 'uncle')
 c.showPage()
 
 page_header(c, 2, 'SALUER ET BOIRE', 'Des mots simples pour commencer une conversation.')
-entry(c, 414, 3, 'thé', 'LE', '/te/', 'the.mp3', 'Le thé est chaud.', 'le → masculin', 'tea')
-entry(c, 72, 4, 'Bonjour !', '', '/bɔ̃.ʒuʁ/', 'bonjour.mp3', 'Bonjour, tante !', 'Je salue une personne.', 'hello')
+entry(c, 414, 3, 'thé', 'LE', '/te/', 'Le thé est chaud.', 'le → masculin', 'tea')
+entry(c, 72, 4, 'Bonjour !', '', '/bɔ̃.ʒuʁ/', 'Bonjour, tante !', 'Je salue une personne.', 'hello')
 c.showPage()
 
 c.save()
