@@ -95,12 +95,25 @@ export function createVocabularyCard(entry) {
   card.append(labelAndText(entry.source === "duolingo" ? "Statut" : "À retenir", entry.rule, "rule"));
 
   if (entry.image) {
-    card.append(
+    const imageReference = element("div", {
+      className: "image-reference",
+      attributes: {
+        tabindex: "0",
+        "aria-label": `Traducción: ${entry.translation}`,
+      },
+    });
+    imageReference.append(
       element("img", {
         className: "scene",
         attributes: { src: entry.image.src, alt: entry.image.alt },
       }),
+      element("span", {
+        className: "translation-tooltip",
+        text: entry.translation,
+        attributes: { role: "tooltip" },
+      }),
     );
+    card.append(imageReference);
   }
 
   if (entry.audio) {

@@ -11,7 +11,7 @@ def test_layout_has_tablet_and_mobile_reflow_rules():
     assert "@media (max-width: 820px)" in css
     assert "@media (max-width: 520px)" in css
     assert ".vocabulary-grid { grid-template-columns: 1fr; }" in css
-    assert ".scene { position: static;" in css
+    assert ".image-reference { position: static;" in css
     assert ".sentence-row { max-width: 100%;" in css
 
 
