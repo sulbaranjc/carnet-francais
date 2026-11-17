@@ -60,50 +60,68 @@ export function createVocabularyCard(entry) {
   }
 
   card.append(element("h2", { text: entry.word }));
-  card.append(element("p", { className: "label", text: "Prononciation" }));
 
-  const pronunciation = element("div", { className: "pronunciation-row" });
-  pronunciation.append(
-    element("span", { className: "ipa", text: entry.ipa }),
-    createAudioButton(entry.id, `Écouter ${entry.word}`),
-  );
-  card.append(pronunciation);
+  if (entry.ipa && entry.audio) {
+    card.append(element("p", { className: "label", text: "Prononciation" }));
+    const pronunciation = element("div", { className: "pronunciation-row" });
+    pronunciation.append(
+      element("span", { className: "ipa", text: entry.ipa }),
+      createAudioButton(entry.id, `Écouter ${entry.word}`),
+    );
+    card.append(pronunciation);
+    card.append(
+      element("p", {
+        className: "playback-status",
+        attributes: { id: `status-${entry.id}`, "aria-live": "polite" },
+      }),
+    );
+  }
 
-  card.append(
-    element("p", {
-      className: "playback-status",
-      attributes: { id: `status-${entry.id}`, "aria-live": "polite" },
-    }),
-  );
-  card.append(element("p", { className: "label", text: "Une phrase" }));
-  const sentenceRow = element("div", { className: "sentence-row" });
-  sentenceRow.append(
-    element("p", { className: "sentence", text: entry.sentence }),
-    createAudioButton(
-      `sentence-${entry.id}`,
-      `Écouter la phrase : ${entry.sentence}`,
-      true,
-      entry.id,
-    ),
-  );
-  card.append(sentenceRow);
-  card.append(labelAndText("À retenir", entry.rule, "rule"));
-  card.append(
-    element("img", {
-      className: "scene",
-      attributes: { src: entry.image.src, alt: entry.image.alt },
-    }),
-    element("audio", {
-      attributes: { id: entry.id, preload: "metadata", src: entry.audio.src },
-    }),
-    element("audio", {
-      attributes: {
-        id: `sentence-${entry.id}`,
-        preload: "metadata",
-        src: entry.sentenceAudio.src,
-      },
-    }),
-  );
+  if (entry.sentence && entry.sentenceAudio) {
+    card.append(element("p", { className: "label", text: "Une phrase" }));
+    const sentenceRow = element("div", { className: "sentence-row" });
+    sentenceRow.append(
+      element("p", { className: "sentence", text: entry.sentence }),
+      createAudioButton(
+        `sentence-${entry.id}`,
+        `Écouter la phrase : ${entry.sentence}`,
+        true,
+        entry.id,
+      ),
+    );
+    card.append(sentenceRow);
+  }
+
+  card.append(labelAndText(entry.source === "duolingo" ? "Statut" : "À retenir", entry.rule, "rule"));
+
+  if (entry.image) {
+    card.append(
+      element("img", {
+        className: "scene",
+        attributes: { src: entry.image.src, alt: entry.image.alt },
+      }),
+    );
+  }
+
+  if (entry.audio) {
+    card.append(
+      element("audio", {
+        attributes: { id: entry.id, preload: "metadata", src: entry.audio.src },
+      }),
+    );
+  }
+
+  if (entry.sentenceAudio) {
+    card.append(
+      element("audio", {
+        attributes: {
+          id: `sentence-${entry.id}`,
+          preload: "metadata",
+          src: entry.sentenceAudio.src,
+        },
+      }),
+    );
+  }
 
   return card;
 }

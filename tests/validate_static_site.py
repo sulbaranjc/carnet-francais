@@ -48,9 +48,11 @@ def main():
     assert (ROOT / "assets" / "js" / "app.js").is_file()
     assert (ROOT / "assets" / "js" / "vocabulary.js").is_file()
     assert (ROOT / "assets" / "js" / "audio-player.js").is_file()
-    assert len(entries) == 4
+    assert len(entries) == 64
     assert len({entry["id"] for entry in entries}) == len(entries)
     for entry in entries:
+        if entry.get("source") == "duolingo":
+            continue
         assert (ROOT / entry["image"]["src"]).is_file()
         assert (ROOT / entry["audio"]["src"]).is_file()
     assert b"file:///" not in (ROOT / "dist" / "carnet-francais.pdf").read_bytes(), "PDF must not expose local file URLs"
