@@ -3,7 +3,7 @@
   <rect width="165" height="150" rx="16" fill="#E9F0F7"/>
   <circle cx="132" cy="28" r="13" fill="#fff" opacity=".72"/>
   <circle cx="28" cy="119" r="18" fill="#fff" opacity=".45"/>
-  <circle cx="82" cy="82" r="43" fill="#427AA1"/><path d="M61 82h42M82 61v42" stroke="white" stroke-width="10" stroke-linecap="round"/>
+  <path d="m82 35 10 24 26 2-20 17 6 26-22-14-22 14 6-26-20-17 26-2z" fill="#427AA1"/><path d="m124 72 6 14 16 1-12 11 4 16-14-9-14 9 4-16-12-11 16-1z" fill="#E49354"/><path d="m40 72 6 14 16 1-12 11 4 16-14-9-14 9 4-16-12-11 16-1z" fill="#E49354"/>
   <rect x="16" y="126" width="133" height="17" rx="8.5" fill="#fff" opacity=".86"/>
   <text x="82.5" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#28334A">très</text>
 </svg>

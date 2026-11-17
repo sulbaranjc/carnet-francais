@@ -3,7 +3,7 @@
   <rect width="165" height="150" rx="16" fill="#E9F0F7"/>
   <circle cx="132" cy="28" r="13" fill="#fff" opacity=".72"/>
   <circle cx="28" cy="119" r="18" fill="#fff" opacity=".45"/>
-  <circle cx="82" cy="82" r="43" fill="white" stroke="#427AA1" stroke-width="12"/><path d="M82 54v29l22 14" fill="none" stroke="#E49354" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><path d="M34 123h96" stroke="#427AA1" stroke-width="7" stroke-linecap="round"/>
+  <path d="M33 102h65" stroke="#427AA1" stroke-width="9" stroke-linecap="round"/><path d="m87 84 22 18-22 18" fill="none" stroke="#E49354" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><circle cx="57" cy="64" r="15" fill="#427AA1"/><path d="M34 95c3-21 12-31 23-31s20 10 23 31" fill="#427AA1"/><text x="123" y="64" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" fill="#E49354"></text>
   <rect x="16" y="126" width="133" height="17" rx="8.5" fill="#fff" opacity=".86"/>
   <text x="82.5" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#28334A">il vient</text>
 </svg>

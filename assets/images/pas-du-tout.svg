@@ -3,7 +3,7 @@
   <rect width="165" height="150" rx="16" fill="#F9E1E1"/>
   <circle cx="132" cy="28" r="13" fill="#fff" opacity=".72"/>
   <circle cx="28" cy="119" r="18" fill="#fff" opacity=".45"/>
-  <circle cx="82" cy="82" r="43" fill="#B65050"/><path d="M61 82h42M82 61v42" stroke="white" stroke-width="10" stroke-linecap="round"/>
+  <path d="M43 102h47l-6 15H49z" fill="#F4C78C"/><path d="M55 84c6-13 18-13 24 0" fill="none" stroke="#555C7A" stroke-width="8" stroke-linecap="round"/><circle cx="112" cy="64" r="27" fill="#C64F4F"/><path d="m96 64 32 0" stroke="white" stroke-width="8" stroke-linecap="round"/>
   <rect x="16" y="126" width="133" height="17" rx="8.5" fill="#fff" opacity=".86"/>
   <text x="82.5" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#28334A">pas du tout</text>
 </svg>

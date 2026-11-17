@@ -12,6 +12,9 @@ def test_desktop_uses_three_cards_and_a_wider_reading_area():
     assert "width: min(1440px, 100%);" in css
     assert "@media (min-width: 1180px)" in css
     assert ".vocabulary-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }" in css
+    assert "padding: 24px 190px 24px 24px;" in css
+    assert "top: 50%;" in css
+    assert "transform: translateY(-50%);" in css
 
 
 def test_page_has_jc_french_learning_signature():
