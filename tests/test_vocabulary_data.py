@@ -4,7 +4,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "assets" / "data" / "vocabulary.json"
-DUOLINGO_TOTAL = 64
+DUOLINGO_TOTAL = 68
+REQUIRED_NEW_WORDS = {"c'est", "incroyable", "vraiment", "formidable"}
 REQUIRED_CARD_FIELDS = {
     "id",
     "number",
@@ -30,6 +31,7 @@ def test_every_catalog_entry_is_a_complete_learning_card():
     assert len(entries) == DUOLINGO_TOTAL
     assert len({entry["id"] for entry in entries}) == DUOLINGO_TOTAL
     assert [entry["number"] for entry in entries] == list(range(1, DUOLINGO_TOTAL + 1))
+    assert REQUIRED_NEW_WORDS <= {entry["word"] for entry in entries}
 
     for entry in entries:
         assert REQUIRED_CARD_FIELDS <= entry.keys(), f"Incomplete card: {entry['word']}"

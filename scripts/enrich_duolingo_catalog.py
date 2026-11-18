@@ -103,6 +103,10 @@ ROWS = [
     ("madame", "la", "/ma.dam/", "Bonjour, madame Dupont.", "« Madame » est un nom féminin de politesse pour s'adresser à une femme.", "Une femme sourit dans la rue.", "personne"),
     ("café", "le", "/ka.fe/", "Le café est chaud.", "« Café » est un nom masculin ; on dit « un café » ou « le café ».", "Une tasse de café fumante sur une table.", "nourriture"),
     ("thé", "le", "/te/", "Le thé est chaud.", "« Thé » est un nom masculin ; on dit « un thé » ou « le thé ».", "Une tasse de thé fumante sur une table.", "nourriture"),
+    ("c'est", "", "/sɛ/", "C'est incroyable !", "« C'est » est la contraction de « ce » et « est ». On emploie l'apostrophe devant la voyelle de « est ».", "Une bulle de dialogue annonce une découverte étonnante.", "conversation"),
+    ("incroyable", "", "/ɛ̃.kʁwa.jabl/", "Ce spectacle est incroyable !", "« Incroyable » est un adjectif ; sa forme est identique au masculin et au féminin singulier.", "Des étoiles expriment qu'un spectacle est extraordinaire.", "adjectif"),
+    ("vraiment", "", "/vʁɛ.mɑ̃/", "C'est vraiment formidable.", "« Vraiment » est un adverbe qui renforce le sens d'un adjectif, d'un verbe ou d'un autre adverbe.", "Une grande étoile souligne une intensité réelle.", "intensite"),
+    ("formidable", "", "/fɔʁ.mi.dabl/", "Ce livre est formidable.", "« Formidable » est un adjectif ; sa forme est identique au masculin et au féminin singulier.", "Une médaille récompense quelque chose d'excellent.", "adjectif"),
 ]
 
 

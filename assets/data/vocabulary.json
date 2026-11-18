@@ -1788,6 +1788,118 @@
       "illustrationKind": "nourriture",
       "translation": "té",
       "sentenceTranslation": "El té está caliente."
+    },
+    {
+      "id": "c-est",
+      "number": 65,
+      "word": "c'est",
+      "translation": "es / esto es",
+      "article": "",
+      "ipa": "/sɛ/",
+      "sentence": "C'est incroyable !",
+      "sentenceTranslation": "¡Es increíble!",
+      "rule": "« C'est » est la contraction de « ce » et « est ». On emploie l'apostrophe devant la voyelle de « est ».",
+      "source": "duolingo",
+      "importGloss": "es / esto es",
+      "learningState": "enrichi",
+      "image": {
+        "name": "c-est.svg",
+        "src": "assets/images/c-est.svg",
+        "alt": "Une bulle de dialogue annonce une découverte étonnante."
+      },
+      "audio": {
+        "name": "c-est.mp3",
+        "src": "assets/media/audio/c-est.mp3"
+      },
+      "sentenceAudio": {
+        "name": "c-est-phrase.mp3",
+        "src": "assets/media/audio/sentences/c-est-phrase.mp3"
+      },
+      "illustrationKind": "conversation"
+    },
+    {
+      "id": "incroyable",
+      "number": 66,
+      "word": "incroyable",
+      "translation": "increíble",
+      "article": "",
+      "ipa": "/ɛ̃.kʁwa.jabl/",
+      "sentence": "Ce spectacle est incroyable !",
+      "sentenceTranslation": "¡Este espectáculo es increíble!",
+      "rule": "« Incroyable » est un adjectif ; sa forme est identique au masculin et au féminin singulier.",
+      "source": "duolingo",
+      "importGloss": "increíble",
+      "learningState": "enrichi",
+      "image": {
+        "name": "incroyable.svg",
+        "src": "assets/images/incroyable.svg",
+        "alt": "Des étoiles expriment qu'un spectacle est extraordinaire."
+      },
+      "audio": {
+        "name": "incroyable.mp3",
+        "src": "assets/media/audio/incroyable.mp3"
+      },
+      "sentenceAudio": {
+        "name": "incroyable-phrase.mp3",
+        "src": "assets/media/audio/sentences/incroyable-phrase.mp3"
+      },
+      "illustrationKind": "adjectif"
+    },
+    {
+      "id": "vraiment",
+      "number": 67,
+      "word": "vraiment",
+      "translation": "realmente",
+      "article": "",
+      "ipa": "/vʁɛ.mɑ̃/",
+      "sentence": "C'est vraiment formidable.",
+      "sentenceTranslation": "Es realmente formidable.",
+      "rule": "« Vraiment » est un adverbe qui renforce le sens d'un adjectif, d'un verbe ou d'un autre adverbe.",
+      "source": "duolingo",
+      "importGloss": "realmente",
+      "learningState": "enrichi",
+      "image": {
+        "name": "vraiment.svg",
+        "src": "assets/images/vraiment.svg",
+        "alt": "Une grande étoile souligne une intensité réelle."
+      },
+      "audio": {
+        "name": "vraiment.mp3",
+        "src": "assets/media/audio/vraiment.mp3"
+      },
+      "sentenceAudio": {
+        "name": "vraiment-phrase.mp3",
+        "src": "assets/media/audio/sentences/vraiment-phrase.mp3"
+      },
+      "illustrationKind": "intensite"
+    },
+    {
+      "id": "formidable",
+      "number": 68,
+      "word": "formidable",
+      "translation": "formidable",
+      "article": "",
+      "ipa": "/fɔʁ.mi.dabl/",
+      "sentence": "Ce livre est formidable.",
+      "sentenceTranslation": "Este libro es formidable.",
+      "rule": "« Formidable » est un adjectif ; sa forme est identique au masculin et au féminin singulier.",
+      "source": "duolingo",
+      "importGloss": "formidable",
+      "learningState": "enrichi",
+      "image": {
+        "name": "formidable.svg",
+        "src": "assets/images/formidable.svg",
+        "alt": "Une médaille récompense quelque chose d'excellent."
+      },
+      "audio": {
+        "name": "formidable.mp3",
+        "src": "assets/media/audio/formidable.mp3"
+      },
+      "sentenceAudio": {
+        "name": "formidable-phrase.mp3",
+        "src": "assets/media/audio/sentences/formidable-phrase.mp3"
+      },
+      "illustrationKind": "adjectif"
     }
   ]
 }

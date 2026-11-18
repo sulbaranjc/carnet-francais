@@ -40,6 +40,7 @@ SCENE_BY_ID = {
     "bien": "agreement", "ca-va": "wellbeing", "enchanté": "handshake",
     "au-revoir": "goodbye", "parfait": "medal", "ou": "choice",
     "non": "negation", "merci": "thanks", "et": "connection", "oui": "agreement",
+    "c-est": "conversation", "incroyable": "intensity", "vraiment": "intensity", "formidable": "medal",
     "je-voudrais": "order", "s-il-vous-plait": "order", "monsieur": "personne",
 }
 

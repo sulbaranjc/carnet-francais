@@ -48,7 +48,7 @@ def main():
     assert (ROOT / "assets" / "js" / "app.js").is_file()
     assert (ROOT / "assets" / "js" / "vocabulary.js").is_file()
     assert (ROOT / "assets" / "js" / "audio-player.js").is_file()
-    assert len(entries) == 64
+    assert len(entries) == 68
     assert len({entry["id"] for entry in entries}) == len(entries)
     for entry in entries:
         if entry.get("source") == "duolingo":
